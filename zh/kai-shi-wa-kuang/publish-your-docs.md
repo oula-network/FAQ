@@ -29,8 +29,9 @@ layout:
 
 ### 環境準備
 
-* **操作系統：**Ubuntu 22.04 (GCC 11.4)
-* **GPU CUDA版本:** 12.3
+* **操作系統：**<mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
+* **GPU CUDA版本: **<mark style="color:red;">**12.3**</mark>
+* **NVIDIA驱动版本: **<mark style="color:red;">**545以上**</mark>
 * **軟體客戶端：**[**Oula-Aleo**](https://github.com/oula-network/aleo/releases)
 
 {% hint style="info" %}
