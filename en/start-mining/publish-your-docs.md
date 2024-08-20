@@ -27,8 +27,9 @@ Please read the mining tutorial carefully and follow the steps to connect the mi
 
 ### **Environment Setup**
 
-* **Operating Systems**: Ubuntu 22.04 (GCC 11.4)
-* **GPU CUDA Version:** 12.3
+* **Operating Systems**: <mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
+* **GPU CUDA Version: **<mark style="color:red;">**12.3**</mark>
+* **Nvidia Driver Version: **<mark style="color:red;">**545 or higher**</mark>
 * **Software Clients**: [**Oula-Aleo**](https://github.com/oula-network/aleo/releases)
 
 {% hint style="info" %}
@@ -46,13 +47,13 @@ After running the software client, daily output will be automatically accumulate
 
 ### **Program Execution**
 
-#### **Aleo Pool Prover**
+#### **Oula Pool Prover**
 
 * Download the [**oula-pool-prover**](https://github.com/oula-network/aleo/releases) on Ubuntu systems.
 * Grant permission with the command:
 
 ```sh
-chmod +x aleo-pool-prover
+chmod +x oula-pool-prover
 ```
 
 * Set execution permission with the command:
