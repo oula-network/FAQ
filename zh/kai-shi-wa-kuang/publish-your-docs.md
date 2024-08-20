@@ -46,18 +46,18 @@ layout:
 
 #### **Aleo Pool Prover**
 
-* 在Ubuntu系統中，下載並解壓縮[aleo-pool-prover](https://github.com/oula-network/aleo/releases)
+* 在Ubuntu系統中，下載並解壓縮[oula-pool-prover](https://github.com/oula-network/aleo/releases)
 * 設置執行程序的權限命令
 
 ```sh
-chmod +x aleo-pool-prover
+chmod +x oula-pool-prover
 ```
 
 * 設置參數對應的文本資訊，執行程序啟動命令
 
 {% code overflow="wrap" %}
 ```bash
-nohup ./aleo-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
+nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
 ```
 {% endcode %}
 
