@@ -32,7 +32,7 @@ layout:
 * **操作系統：**<mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
 * **GPU CUDA版本: **<mark style="color:red;">**12.3**</mark>
 * **NVIDIA驱动版本: **<mark style="color:red;">**545以上**</mark>
-* **軟體客戶端：**[**Oula-Aleo**](https://github.com/oula-network/aleo/releases)
+* **軟體客戶端：**[**oula-pool-prover (fe7726a-2024-08-19-1)**](https://github.com/oula-network/aleo/releases)
 
 {% hint style="info" %}
 請隨時關注[**OULA官方網站**](https://oula.network/zh)公告，並更新使用最新版本的軟體客戶端，以獲得更優質的技術服務和更高的 Token 產出。
