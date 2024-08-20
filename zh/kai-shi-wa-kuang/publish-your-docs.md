@@ -40,8 +40,8 @@ layout:
 
 ### 帳號設立
 
-* 須通過完成 [**OULA帳號註冊**](https://oula.network/zh/register)，在用戶面板→礦池市場→[**子帳戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)模組下，使用 Aleo 對應的預設或新建立的子帳戶名啟動軟體。
-* 運行軟體客戶端後，每日的產出將自動累計至對應的子帳戶中。餘額達到最低起付金額後，平台將每日自動支付至綁定的提現地址。
+* 須通過完成 [**OULA帳號註冊**](https://oula.network/zh/register)，在用戶面板→礦池市場→[**子賬戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)模組下，使用 Aleo 對應的預設或新建立的子賬戶名啟動軟體。
+* 運行軟體客戶端後，每日的產出將自動累計至對應的子賬戶中。餘額達到最低起付金額後，平台將每日自動支付至綁定的提現地址。
 
 ### 程序運行
 
@@ -67,7 +67,7 @@ nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account -
 * [ ] 替換設備名（--worker-name）：礦工名稱
 
 {% hint style="warning" %}
-子帳戶和礦工名稱可自訂義，需滿足全域唯一性！&#x20;
+子賬戶和礦工名稱可自訂義，需滿足全域唯一性！&#x20;
 
 建議使用2-15個小寫字母、數字或其組合，且不能以數字開頭。
 {% endhint %}
