@@ -27,9 +27,10 @@ Please read the mining tutorial carefully and follow the steps to connect the mi
 
 ### **Environment Setup**
 
-* **Operating Systems**: Ubuntu 22.04 (GCC 11.4)
-* **GPU CUDA Version:** 12.3
-* **Software Clients**: [**Oula-Aleo**](https://github.com/oula-network/aleo/releases)
+* **Operating Systems**: <mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
+* **GPU CUDA Version: **<mark style="color:red;">**12.3**</mark>
+* **NVIDIA Driver Version: **<mark style="color:red;">**545 or higher**</mark>
+* **Software Clients**: [**oula-pool-prover (fe7726a-2024-08-19-1)**](https://github.com/oula-network/aleo/releases)
 
 {% hint style="info" %}
 Please stay updated with [<mark style="color:blue;">**OULA's official website**</mark>](https://oula.network/en) announcements and use the latest version of the software client for optimal technical service and higher Token output.
@@ -46,20 +47,20 @@ After running the software client, daily output will be automatically accumulate
 
 ### **Program Execution**
 
-#### **Aleo Pool Prover**
+#### **Oula Pool Prover**
 
-* Download the [**aleo-pool-prover**](https://github.com/oula-network/aleo/releases) on Ubuntu systems.
+* Download the [**oula-pool-prover**](https://github.com/oula-network/aleo/releases) on Ubuntu systems.
 * Grant permission with the command:
 
 ```sh
-chmod +x aleo-pool-prover
+chmod +x oula-pool-prover
 ```
 
 * Set execution permission with the command:
 
 {% code overflow="wrap" %}
 ```bash
-nohup ./aleo-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
+nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
 ```
 {% endcode %}
 

@@ -29,35 +29,36 @@ layout:
 
 ### 環境準備
 
-* **操作系統：**Ubuntu 22.04 (GCC 11.4)
-* **GPU CUDA版本:** 12.3
-* **軟體客戶端：**[Oula-Aleo](https://github.com/oula-network/aleo/releases)
+* **操作系統：**<mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
+* **GPU CUDA版本: **<mark style="color:red;">**12.3**</mark>
+* **NVIDIA驱动版本: **<mark style="color:red;">**545以上**</mark>
+* **軟體客戶端：**[**oula-pool-prover (fe7726a-2024-08-19-1)**](https://github.com/oula-network/aleo/releases)
 
 {% hint style="info" %}
-請隨時關注[OULA官方網站](https://oula.network/zh)公告，並更新使用最新版本的軟體客戶端，以獲得更優質的技術服務和更高的 Token 產出。
+請隨時關注[**OULA官方網站**](https://oula.network/zh)公告，並更新使用最新版本的軟體客戶端，以獲得更優質的技術服務和更高的 Token 產出。
 {% endhint %}
 
 ### 帳號設立
 
-* 須通過完成 [OULA帳號註冊](https://oula.network/zh/register)，在用戶面板→礦池市場→[子帳戶管理](https://oula.network/zh/pool/manager?tab=subAccount)模組下，使用 Aleo 對應的預設或新建立的子帳戶名啟動軟體。
+* 須通過完成 [**OULA帳號註冊**](https://oula.network/zh/register)，在用戶面板→礦池市場→[**子帳戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)模組下，使用 Aleo 對應的預設或新建立的子帳戶名啟動軟體。
 * 運行軟體客戶端後，每日的產出將自動累計至對應的子帳戶中。餘額達到最低起付金額後，平台將每日自動支付至綁定的提現地址。
 
 ### 程序運行
 
-#### **Aleo Pool Prover**
+#### **Oula Pool Prover**
 
-* 在Ubuntu系統中，下載並解壓縮[aleo-pool-prover](https://github.com/oula-network/aleo/releases)
+* 在Ubuntu系統中，下載並解壓縮[**oula-pool-prover**](https://github.com/oula-network/aleo/releases)
 * 設置執行程序的權限命令
 
 ```sh
-chmod +x aleo-pool-prover
+chmod +x oula-pool-prover
 ```
 
 * 設置參數對應的文本資訊，執行程序啟動命令
 
 {% code overflow="wrap" %}
 ```bash
-nohup ./aleo-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
+nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
 ```
 {% endcode %}
 
