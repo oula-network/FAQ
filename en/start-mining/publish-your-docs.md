@@ -48,7 +48,7 @@ After running the software client, daily output will be automatically accumulate
 
 #### **Aleo Pool Prover**
 
-* Download the [**aleo-pool-prover**](https://github.com/oula-network/aleo/releases) on Ubuntu systems.
+* Download the [**oula-pool-prover**](https://github.com/oula-network/aleo/releases) on Ubuntu systems.
 * Grant permission with the command:
 
 ```sh
@@ -59,7 +59,7 @@ chmod +x aleo-pool-prover
 
 {% code overflow="wrap" %}
 ```bash
-nohup ./aleo-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
+nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
 ```
 {% endcode %}
 
