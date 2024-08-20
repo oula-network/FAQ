@@ -74,7 +74,7 @@ A: Please check if the graphics card drivers are correctly installed, or confirm
 
 **Q: How do I resolve the error "nohup: failed to run command '/home/user/aleo-prover-cuda': Permission denied" in Aleo mining software?**
 
-A: Please execute <mark style="color:red;">`chmod +x aleo-prover-cuda`</mark> to add execution permissions for the Prover.
+A: Please execute <mark style="color:red;">`chmod +x oula-pool-prover`</mark> to add execution permissions for the Prover.
 
 
 
