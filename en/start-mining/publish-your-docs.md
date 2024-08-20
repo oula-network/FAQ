@@ -30,7 +30,7 @@ Please read the mining tutorial carefully and follow the steps to connect the mi
 * **Operating Systems**: <mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
 * **GPU CUDA Version: **<mark style="color:red;">**12.3**</mark>
 * **NVIDIA Driver Version: **<mark style="color:red;">**545 or higher**</mark>
-* **Software Clients**: [**Oula-Aleo**](https://github.com/oula-network/aleo/releases)
+* **Software Clients**: [**oula-pool-prover (fe7726a-2024-08-19-1)**](https://github.com/oula-network/aleo/releases)
 
 {% hint style="info" %}
 Please stay updated with [<mark style="color:blue;">**OULA's official website**</mark>](https://oula.network/en) announcements and use the latest version of the software client for optimal technical service and higher Token output.
