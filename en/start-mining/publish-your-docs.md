@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 🤖 Aleo Mining Tutorial - Pool
+# 🤖 Aleo Mining Tutorial - Ubuntu
 
 {% embed url="https://oula.network/en" %}
 
@@ -84,7 +84,7 @@ tail -f prover.log
 If you see relevant success messages in <mark style="color:red;">`prover.log`</mark>, the program has started successfully.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **If you do not need to output log content, you can replace '&> prover.log &' in the startup command with '> /dev/null 2>&1 &'.**
