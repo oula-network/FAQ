@@ -21,7 +21,7 @@ layout:
 
 {% embed url="https://oula.network/zh" %}
 
-> &#x20;❕ [ALEO](https://www.aleo.org/)是一個融合PoW和PoS共識機制的區塊鏈項目，旨在提供高度隱私的智能合約功能。其利用先進的Synthesis Puzzle技術來確保交易的隱私和安全性。ALEO專注於構建去中心化應用程序，提供高效且安全的隱私保護方案。
+> &#x20;❕ [Aleo](https://www.aleo.org/)是一個融合PoW和PoS共識機制的區塊鏈項目，旨在提供高度隱私的智能合約功能。其利用先進的Synthesis Puzzle技術來確保交易的隱私和安全性。Aleo專注於構建去中心化應用程序，提供高效且安全的隱私保護方案。
 
 
 
