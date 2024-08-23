@@ -1,6 +1,6 @@
 ---
 hidden: true
-cover: ../.gitbook/assets/英文.jpg
+cover: ../.gitbook/assets/Aleo Pool.jpg
 coverY: 0
 layout:
   cover:
