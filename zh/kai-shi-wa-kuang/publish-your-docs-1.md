@@ -1,6 +1,6 @@
 ---
 hidden: true
-cover: ../.gitbook/assets/aleo.jpg
+cover: ../.gitbook/assets/英文.jpg
 coverY: 0
 layout:
   cover:
@@ -22,7 +22,7 @@ layout:
 
 {% embed url="https://oula.network/zh" %}
 
-> &#x20;❕ [ALEO](https://www.aleo.org/)是一個融合PoW和PoS共識機制的區塊鏈項目，旨在提供高度隱私的智能合約功能。其利用先進的Synthesis Puzzle技術來確保交易的隱私和安全性。ALEO專注於構建去中心化應用程序，提供高效且安全的隱私保護方案。
+> &#x20;❕ [Aleo](https://www.aleo.org/)是一個融合PoW和PoS共識機制的區塊鏈項目，旨在提供高度隱私的智能合約功能。其利用先進的Synthesis Puzzle技術來確保交易的隱私和安全性。Aleo專注於構建去中心化應用程序，提供高效且安全的隱私保護方案。
 
 
 
@@ -31,6 +31,8 @@ layout:
 {% hint style="info" %}
 請隨時關注[**OULA官方網站**](https://oula.network/zh)公告，並更新使用最新版本的軟體客戶端，以獲得更優質的技術服務和更高的 Token 產出。
 {% endhint %}
+
+
 
 ### 環境準備
 
@@ -44,7 +46,7 @@ layout:
     <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-注意：請勿使用固件在線升級功能，需重新安裝新固件並確保系統版本為 Ubuntu 20.04。
+**注意：**請勿使用固件在線升級功能，需重新安裝新固件並確保系統版本為 Ubuntu 20.04。
 {% endhint %}
 
 * 執行GCC 與 G++ 編譯器升級指令
@@ -84,8 +86,10 @@ nvidia-driver-update
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-* 選擇對應的數字貨幣
-* 填寫錢包地址（[<mark style="color:blue;">**Oula子賬戶名**</mark>](https://oula.network/zh/pool/manager?tab=subAccount)）和名稱（可自定義）
+* 設置對應參數
+  * 數字貨幣 `ALEO`
+  * 地址 [`Oula 默認或新建的子帳戶名`](https://oula.network/zh/pool/manager?tab=subAccount)&#x20;
+  * 名稱 `Oula`&#x20;
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -97,11 +101,16 @@ nvidia-driver-update
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-* 選擇對應的「<mark style="color:blue;">**數字貨幣**</mark>」、上述創建的錢包名稱、「<mark style="color:blue;">**挖礦軟件配置**</mark>」、`Custom`，輸入`oulapool`
+* 設置對應參數
+  * 數字貨幣 `ALEO`
+  * 錢包 `Oula`
+  * 礦池 `挖礦軟件配置`
+  * 挖礦軟件 `Custom`
+  * 名稱 `oulapool`
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-*   點擊「<mark style="color:blue;">**設定挖礦軟件配置**</mark>」，輸入以下對應參數
+*   點擊「<mark style="color:blue;">**設定挖礦軟件配置**</mark>」，輸入以下對應參數，點擊「應用更改」保存配置信息
 
     **挖礦軟體名稱**: `oulapool`
 

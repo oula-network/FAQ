@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/中文.jpg
+cover: .gitbook/assets/中文 (1).jpg
 coverY: 3.0218309859154893
 layout:
   cover:
@@ -29,7 +29,7 @@ layout:
 
 ### &#x20;立即開始
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>開始挖礦</strong></td><td>詳細的挖礦教程</td><td><a href=".gitbook/assets/Frame 427318688.png">Frame 427318688.png</a></td><td></td><td><a href="kai-shi-wa-kuang/publish-your-docs.md">publish-your-docs.md</a></td></tr><tr><td><strong>Aleo專欄</strong></td><td>挖礦相關常見問題</td><td><a href=".gitbook/assets/aleo.jpg">aleo.jpg</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>開始挖礦</strong></td><td>詳細的挖礦教程</td><td><a href=".gitbook/assets/Frame 427318688.png">Frame 427318688.png</a></td><td></td><td><a href="kai-shi-wa-kuang/publish-your-docs.md">publish-your-docs.md</a></td></tr><tr><td><strong>Aleo專欄</strong></td><td>挖礦相關常見問題</td><td><a href=".gitbook/assets/aleo (1).jpg">aleo (1).jpg</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
 
 
 
