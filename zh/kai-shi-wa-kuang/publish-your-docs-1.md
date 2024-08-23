@@ -1,5 +1,4 @@
 ---
-hidden: true
 cover: ../.gitbook/assets/Aleo Pool.jpg
 coverY: 0
 layout:
