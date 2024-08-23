@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Frame 427318688.png
+cover: ../.gitbook/assets/挖礦設置相關問題.jpg
 coverY: 0
 layout:
   cover:
@@ -75,7 +75,7 @@ A: 請檢查顯卡驅動是否正確安裝，或者確認您的顯卡是否為 N
 
 **Q: Aleo Miner 軟體提示 “nohup: failed to run command '/home/user/aleo-prover-cuda': Permission denied”，如何解決？**
 
-A: 請執行 <mark style="color:red;">`chmod +x aleo-prover-cuda`</mark> 為 Prover 添加可執行權限。
+A: 請執行 <mark style="color:red;">`chmod +x oula-pool-prover`</mark> 為 Prover 添加可執行權限。
 
 
 

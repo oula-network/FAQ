@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Frame 427318688.png
+cover: ../.gitbook/assets/算力相關問題.jpg
 coverY: 0
 layout:
   cover:
@@ -62,7 +62,7 @@ A: 請檢查顯卡型號是否一致，確保礦機電壓穩定，並檢查是�
 
 A: 執行 <mark style="color:red;">`nvidia-smi`</mark> 命令後，操作成功時會顯示如下信息。您可以從返回的結果中查看 GPU 版本及運行狀況。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 

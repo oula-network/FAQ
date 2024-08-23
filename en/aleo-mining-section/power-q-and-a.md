@@ -56,7 +56,7 @@ A: After connecting to the Oula mining pool, you need to wait for about fifteen 
 
 A: Please check if the graphics card models are consistent, ensure the miner voltage is stable, and check if there are other processes occupying that graphics card.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

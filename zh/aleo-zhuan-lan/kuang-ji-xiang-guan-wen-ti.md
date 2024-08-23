@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Frame 427318688.png
+cover: ../.gitbook/assets/礦機相關問題.jpg
 coverY: 0
 layout:
   cover:

@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/aleo.jpg
+cover: ../.gitbook/assets/Aleo Pool.jpg
 coverY: 0
 layout:
   cover:
@@ -17,11 +17,11 @@ layout:
     visible: true
 ---
 
-# 🤖 Aleo挖礦教程 - Pool
+# 🤖 Aleo挖礦教程 - Ubuntu
 
 {% embed url="https://oula.network/zh" %}
 
-> &#x20;❕ [ALEO](https://www.aleo.org/)是一個融合PoW和PoS共識機制的區塊鏈項目，旨在提供高度隱私的智能合約功能。其利用先進的Synthesis Puzzle技術來確保交易的隱私和安全性。ALEO專注於構建去中心化應用程序，提供高效且安全的隱私保護方案。
+> &#x20;❕ [Aleo](https://www.aleo.org/)是一個融合PoW和PoS共識機制的區塊鏈項目，旨在提供高度隱私的智能合約功能。其利用先進的Synthesis Puzzle技術來確保交易的隱私和安全性。Aleo專注於構建去中心化應用程序，提供高效且安全的隱私保護方案。
 
 
 
@@ -40,8 +40,8 @@ layout:
 
 ### 帳號設立
 
-* 須通過完成 [**OULA帳號註冊**](https://oula.network/zh/register)，在用戶面板→礦池市場→[**子帳戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)模組下，使用 Aleo 對應的預設或新建立的子帳戶名啟動軟體。
-* 運行軟體客戶端後，每日的產出將自動累計至對應的子帳戶中。餘額達到最低起付金額後，平台將每日自動支付至綁定的提現地址。
+* 須通過完成 [**OULA帳號註冊**](https://oula.network/zh/register)，在用戶面板→礦池市場→[**子賬戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)模組下，使用 Aleo 對應的預設或新建立的子賬戶名啟動軟體。
+* 運行軟體客戶端後，每日的產出將自動累計至對應的子賬戶中。餘額達到最低起付金額後，平台將每日自動支付至綁定的提現地址。
 
 ### 程序運行
 
@@ -67,7 +67,7 @@ nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account -
 * [ ] 替換設備名（--worker-name）：礦工名稱
 
 {% hint style="warning" %}
-子帳戶和礦工名稱可自訂義，需滿足全域唯一性！&#x20;
+子賬戶和礦工名稱可自訂義，需滿足全域唯一性！&#x20;
 
 建議使用2-15個小寫字母、數字或其組合，且不能以數字開頭。
 {% endhint %}
@@ -82,7 +82,7 @@ tail -f prover.log
 若在<mark style="color:red;">`prover.log`</mark>中見到相關成功訊息，則表示程序已成功啟動。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 如果您不需要輸出日誌內容，可以將啟動命令中的“&> prover.log &”替換為“> /dev/null 2>&1 &”。
