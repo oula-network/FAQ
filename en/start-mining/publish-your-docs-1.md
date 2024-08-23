@@ -1,4 +1,5 @@
 ---
+hidden: true
 cover: ../.gitbook/assets/aleo.jpg
 coverY: 0
 layout:
