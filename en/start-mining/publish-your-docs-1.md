@@ -1,5 +1,4 @@
 ---
-hidden: true
 cover: ../.gitbook/assets/aleo.jpg
 coverY: 0
 layout:
@@ -20,7 +19,7 @@ layout:
 
 # 🤖 Aleo Mining Tutorial - HiveOS
 
-&#x20;❕ [ALEO](https://www.aleo.org/) is a blockchain project that integrates Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms to offer highly private smart contract capabilities. It utilizes advanced Synthesis Puzzle technology to ensure transaction privacy and security. Aleo focuses on developing decentralized applications and provides efficient and secure privacy protection solutions.
+&#x20;❕ [Aleo](https://www.aleo.org/) is a blockchain project that integrates Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms to offer highly private smart contract capabilities. It utilizes advanced Synthesis Puzzle technology to ensure transaction privacy and security. Aleo focuses on developing decentralized applications and provides efficient and secure privacy protection solutions.
 
 
 
@@ -29,6 +28,8 @@ Please read the mining tutorial carefully and follow the steps to connect the mi
 {% hint style="info" %}
 Please stay updated with [<mark style="color:blue;">**OULA's official website**</mark>](https://oula.network/en) announcements and use the latest version of the software client for optimal technical service and higher Token output.
 {% endhint %}
+
+
 
 ### **Environment Setup**
 
@@ -40,7 +41,7 @@ Please stay updated with [<mark style="color:blue;">**OULA's official website**<
     <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-Note: Online upgrades cannot be performed using older image versions. Please install the new image directly and ensure the system is running Ubuntu 20.04.
+**Note:** Do not use the firmware online upgrade feature. Please reinstall the new firmware and ensure that the system version is Ubuntu 20.04.
 {% endhint %}
 
 * Upgrade the GCC and G++ compilers with the command:
@@ -77,39 +78,45 @@ nvidia-driver-update
 
 ### &#x20;Wallet Creation
 
-* Go to the "<mark style="color:blue;">**Wallet**</mark>" tab and click the "Add Wallet" button.
+* Go to the "<mark style="color:blue;">**Wallet**</mark>" tab and click the "<mark style="color:blue;">**Add Wallet**</mark>" button.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-* Select the corresponding cryptocurrency.
-* Enter the Wallet Address ([<mark style="color:blue;">**Oula Sub-Account Name**</mark>](https://oula.network/en/pool/manager?tab=subAccount)) and Name (customizable).
+* Set the corresponding parameters.
+  * Coin `ALEO`
+  * Address [`Created Oula Sub-Account Name`](https://oula.network/en/pool/manager?tab=subAccount)
+  * Name `Oula`
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 * Click the "Create" button.
 
 ### Flight Sheet Creation
 
-* Go to the "<mark style="color:blue;">**Flight Sheet**</mark>" tab and click the "Add Flight Sheet" button.
+* Go to the "<mark style="color:blue;">**Flight Sheet**</mark>" tab and click the "<mark style="color:blue;">**Add Flight Sheet**</mark>" button.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-* Select the corresponding cryptocurrency.
-* Choose the wallet name created above.
-* Select "Mining Software Configuration."
+* Set the corresponding parameters.
+  * Coin `ALEO`
+  * Wallet `Oula`
+  * Pool `Configure in miner`
+  * Miner `Custom`
+  * Name `oulapool`
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-* Choose Custom, click "<mark style="color:blue;">**Configure Mining Software**</mark>," and enter the following parameters:
-  * Mining Software Name: `oulapool`
-  * Installation Link: `https://oula-hiveos.oss-ap-southeast-1.aliyuncs.com/oulapool-v1.7.tar.gz`
-  * Encryption Algorithm: `aleo`
-  * Wallet and Miner Template: `%WAL%.%WORKER_NAME%`
-  * Pool Address: `wss://aleo.oula.network:6666`
+* Click the "<mark style="color:blue;">**Setup Miner Config**</mark>" button, enter the following parameters and Click the "<mark style="color:blue;">**Apply Changes**</mark>" button to save the configurations.
+  * Miner Name: `oulapool`
+  * Installation URL: `https://oula-hiveos.oss-ap-southeast-1.aliyuncs.com/oulapool-v1.7.tar.gz`
+  * Hash algorithm: `aleo`
+  * Wallet and worker template: `%WAL%.%WORKER_NAME%`
+  * Pool URL: `wss://aleo.oula.network:6666`
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 * Click the "Create Flight Sheet" button to complete the flight sheet setup.
+* Apply the added miners to the created flight sheet.
 
 ### **Monitoring and Yield Viewing**
 
