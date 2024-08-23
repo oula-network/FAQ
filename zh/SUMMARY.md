@@ -9,8 +9,9 @@
 
 ## ⛏️ 開始挖礦
 
-* [🤖 Aleo挖礦教程 - Pool](kai-shi-wa-kuang/publish-your-docs.md)
-* [🤖 Aleo挖礦教程 - Solo](kai-shi-wa-kuang/publish-your-docs-1.md)
+* [🤖 Aleo挖礦教程 - Ubuntu](kai-shi-wa-kuang/publish-your-docs.md)
+* [🤖 Aleo挖礦教程 - HiveOS](kai-shi-wa-kuang/publish-your-docs-1.md)
+* [🤖 Aleo挖礦教程 - Solo](kai-shi-wa-kuang/publish-your-docs-2.md)
 
 ## ❓ Aleo專欄
 

@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 🤖 Aleo挖礦教程 - Pool
+# 🤖 Aleo挖礦教程 - Ubuntu
 
 {% embed url="https://oula.network/zh" %}
 
@@ -82,7 +82,7 @@ tail -f prover.log
 若在<mark style="color:red;">`prover.log`</mark>中見到相關成功訊息，則表示程序已成功啟動。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 如果您不需要輸出日誌內容，可以將啟動命令中的“&> prover.log &”替換為“> /dev/null 2>&1 &”。
