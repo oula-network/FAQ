@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/算力相關問題.jpg
+cover: ../.gitbook/assets/礦機相關問題.jpg
 coverY: 0
 layout:
   cover:
