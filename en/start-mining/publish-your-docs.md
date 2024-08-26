@@ -25,15 +25,17 @@ layout:
 
 Please read the mining tutorial carefully and follow the steps to connect the mining machine to the mining pool.
 
+{% hint style="info" %}
+Please stay updated with [<mark style="color:blue;">**OULA's official website**</mark>](https://oula.network/en) announcements and use the latest version of the software client for optimal technical service and higher Token output.
+{% endhint %}
+
+
+
 ### **Environment Setup**
 
 * **Operating Systems**: <mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
 * **NVIDIA Driver Version: **<mark style="color:red;">**545 or higher**</mark>
 * **Software Clients**: [**oula-pool-prover (**](https://github.com/oula-network/aleo/releases)<mark style="color:blue;">**1244c11-2024-08-26-1**</mark>[**)**](https://github.com/oula-network/aleo/releases)
-
-{% hint style="info" %}
-Please stay updated with [<mark style="color:blue;">**OULA's official website**</mark>](https://oula.network/en) announcements and use the latest version of the software client for optimal technical service and higher Token output.
-{% endhint %}
 
 ### **Account Setup**
 
