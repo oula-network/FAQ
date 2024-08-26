@@ -1,5 +1,4 @@
 ---
-hidden: true
 cover: ../.gitbook/assets/Aleo Pool.jpg
 coverY: 0
 layout:
@@ -114,7 +113,7 @@ nvidia-driver-update
 
     **挖礦軟體名稱**: `oulapool`
 
-    **安裝鏈接**: `https://oula-hiveos.oss-ap-southeast-1.aliyuncs.com/oulapool-v1.7.tar.gz`
+    **安裝鏈接**: <mark style="color:red;">`https://oula-hiveos.oss-ap-southeast-1.aliyuncs.com/oulapool-v1.8.tar.gz`</mark>
 
     **加密算法**: `aleo`
 

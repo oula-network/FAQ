@@ -30,9 +30,8 @@ layout:
 ### 環境準備
 
 * **操作系統：**<mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
-* **GPU CUDA版本: **<mark style="color:red;">**12.3**</mark>
-* **NVIDIA驱动版本: **<mark style="color:red;">**545以上**</mark>
-* **軟體客戶端：**[**oula-pool-prover (fe7726a-2024-08-19-1)**](https://github.com/oula-network/aleo/releases)
+* **NVIDIA驱动版本：**<mark style="color:red;">**545以上**</mark>
+* **軟體客戶端：**[<mark style="color:blue;">**oula-pool-prover (1244c11-2024-08-26-1)**</mark>](https://github.com/oula-network/aleo/releases)
 
 {% hint style="info" %}
 請隨時關注[**OULA官方網站**](https://oula.network/zh)公告，並更新使用最新版本的軟體客戶端，以獲得更優質的技術服務和更高的 Token 產出。
@@ -62,9 +61,9 @@ nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account -
 ```
 {% endcode %}
 
-* [ ] 替換礦池地址（--pool）：以[**概覽**](https://oula.network/zh/pool/manager)頁提供的「**礦池地址**」為準
-* [ ] 替換帳戶（--account）：[**子賬戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)頁已創建的「**賬戶名**」
-* [ ] 替換設備名（--worker-name）：礦工名稱
+* [ ] 替換礦池地址`--pool`：以[**概覽**](https://oula.network/zh/pool/manager)頁提供的「**礦池地址**」為準
+* [ ] 替換帳戶`--account`：[**子賬戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)頁已創建的「**賬戶名**」
+* [ ] 替換設備名`--worker-name`：礦工名稱
 
 {% hint style="warning" %}
 子賬戶和礦工名稱可自訂義，需滿足全域唯一性！&#x20;
@@ -91,13 +90,13 @@ tail -f prover.log
 * 執行程式停止命令
 
 ```bash
-killall aleo-pool-prover
+killall oula-pool-prover
 # 強制執行
 ```
 
 ### 礦機監控及產出查看
 
-設備穩定運行並提交數據後，在用戶面板→礦池市場→[礦工管理](http://192.168.1.51/zh/pool/manager?tab=miner)和[產出/支付](http://192.168.1.51/zh/pool/manager?tab=output)模組下，切換對應的子賬戶即可檢視礦工運行狀態、產出詳情及支付詳情。
+設備穩定運行並提交數據後，在用戶面板→礦池市場→[礦工管理](https://oula.network/zh/pool/manager?tab=miner)和[產出/支付](https://oula.network/zh/pool/manager?tab=output)模組下，切換對應的子賬戶即可檢視礦工運行狀態、產出詳情及支付詳情。
 
 
 
