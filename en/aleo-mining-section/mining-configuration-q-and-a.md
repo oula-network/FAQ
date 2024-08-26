@@ -78,7 +78,45 @@ A: Please execute <mark style="color:red;">`chmod +x oula-pool-prover`</mark> to
 
 
 
+**Q: How can I fix the issue “Error aleo\_prover::client: Connection closed: stream closed from Prover”?**\
+A: If this issue occurs repeatedly, please check your network connection and ensure the mining pool server is functioning properly. If it happens occasionally, please ignore it.
+
+
+
+**Q: On Ubuntu 22.04, the default GCC version is 9.4. How do I upgrade to 11.4?**\
+A: Follow these steps:
+
+1.  Upgrade to gcc-11 and g++-11:
+
+    ```bash
+    apt install software-properties-common
+    add-apt-repository ppa:ubuntu-toolchain-r/test
+    apt update
+    apt install gcc-11 g++-11
+    ```
+2.  Adjust the default gcc and g++ priority:
+
+    ```bash
+    update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 10
+    update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 10
+    ```
+
+
+
+**Q: What does the error “error while loading shared libraries: libnvrtc.so.12: cannot open shared object file: No such file or directory” mean?**\
+A: This indicates an issue with your CUDA installation. Please check if CUDA is installed correctly.
+
+
+
+**Q: How do I check the system’s GCC version?**\
+A: Execute the following command to check the system's GCC version.
+
+```bash
+gcc --version
+```
+
+
+
 
 
 [**Back to Oula**](https://oula.network/en/login)
-

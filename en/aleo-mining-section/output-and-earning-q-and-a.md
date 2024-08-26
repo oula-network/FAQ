@@ -125,7 +125,21 @@ A: The specifics of transaction fees will be confirmed and announced before the 
 
 
 
+**Q: Are the earnings currently displayed on Oula in Aleo credits?**\
+A: Before the mainnet launch, the earnings displayed are virtual earnings from the test environment. After the mainnet is launched, they will be shown as actual Aleo earnings.
+
+
+
+**Q: The payment settings prompt states, "It takes 24 hours to restore the automatic payment function after binding or modifying the withdrawal address." Does it take effect within 24 hours from the start of binding?**\
+A: For security reasons, the rules for binding or modifying the withdrawal address are as follows:
+
+1. If the operation is completed before 12:00 PM (UTC+8) on the same day, the automatic payment function will be restored at 12:00 PM (UTC+8) the following day.
+2. If the operation is completed after 12:00 PM (UTC+8) on the same day, the automatic payment function will be restored at 12:00 PM (UTC+8) two days later.
+
+Any earnings generated during this period will automatically accumulate in the account.
+
+
+
 
 
 [**Back to Oula**](https://oula.network/en/login)
-
