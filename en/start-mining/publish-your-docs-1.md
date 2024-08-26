@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/aleo.jpg
+cover: ../.gitbook/assets/Aleo Pool.jpg
 coverY: 0
 layout:
   cover:

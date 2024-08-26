@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Mining Machine.jpg
+cover: ../.gitbook/assets/Mining Configuration Q&A.jpg
 coverY: 0
 layout:
   cover:
