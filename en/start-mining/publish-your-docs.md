@@ -21,16 +21,15 @@ layout:
 
 {% embed url="https://oula.network/en" %}
 
-> &#x20;❕ [ALEO](https://www.aleo.org/) is a blockchain project that integrates Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms to offer highly private smart contract capabilities. It utilizes advanced Synthesis Puzzle technology to ensure transaction privacy and security. Aleo focuses on developing decentralized applications and provides efficient and secure privacy protection solutions.
+> &#x20;❕ [Aleo](https://www.aleo.org/) is a blockchain project that integrates Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms to offer highly private smart contract capabilities. It utilizes advanced Synthesis Puzzle technology to ensure transaction privacy and security. Aleo focuses on developing decentralized applications and provides efficient and secure privacy protection solutions.
 
 Please read the mining tutorial carefully and follow the steps to connect the mining machine to the mining pool.
 
 ### **Environment Setup**
 
 * **Operating Systems**: <mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
-* **GPU CUDA Version: **<mark style="color:red;">**12.3**</mark>
 * **NVIDIA Driver Version: **<mark style="color:red;">**545 or higher**</mark>
-* **Software Clients**: [**oula-pool-prover (fe7726a-2024-08-19-1)**](https://github.com/oula-network/aleo/releases)
+* **Software Clients**: [**oula-pool-prover (**](https://github.com/oula-network/aleo/releases)<mark style="color:blue;">**1244c11-2024-08-26-1**</mark>[**)**](https://github.com/oula-network/aleo/releases)
 
 {% hint style="info" %}
 Please stay updated with [<mark style="color:blue;">**OULA's official website**</mark>](https://oula.network/en) announcements and use the latest version of the software client for optimal technical service and higher Token output.
@@ -93,7 +92,7 @@ If you see relevant success messages in <mark style="color:red;">`prover.log`</m
 * To stop the program, use:
 
 ```bash
-killall aleo-pool-prover
+killall oula-pool-prover
 # Force stop
 ```
 

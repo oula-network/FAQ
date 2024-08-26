@@ -1,5 +1,4 @@
 ---
-hidden: true
 cover: ../.gitbook/assets/aleo.jpg
 coverY: 0
 layout:
@@ -109,7 +108,7 @@ nvidia-driver-update
 
 * Click the "<mark style="color:blue;">**Setup Miner Config**</mark>" button, enter the following parameters and Click the "<mark style="color:blue;">**Apply Changes**</mark>" button to save the configurations.
   * Miner Name: `oulapool`
-  * Installation URL: `https://oula-hiveos.oss-ap-southeast-1.aliyuncs.com/oulapool-v1.7.tar.gz`
+  * Installation URL: <mark style="color:red;">`https://oula-hiveos.oss-ap-southeast-1.aliyuncs.com/oulapool-v1.8.tar.gz`</mark>
   * Hash algorithm: `aleo`
   * Wallet and worker template: `%WAL%.%WORKER_NAME%`
   * Pool URL: `wss://aleo.oula.network:6666`
