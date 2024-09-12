@@ -19,9 +19,7 @@ layout:
 
 # 🤖 Aleo Mining Tutorial - Ubuntu
 
-{% embed url="https://oula.network/en" %}
-
-> &#x20;❕ [Aleo](https://www.aleo.org/) is a blockchain project that integrates Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms to offer highly private smart contract capabilities. It utilizes advanced Synthesis Puzzle technology to ensure transaction privacy and security. Aleo focuses on developing decentralized applications and provides efficient and secure privacy protection solutions.
+&#x20;❕ [Aleo](https://www.aleo.org/) is a blockchain project that integrates Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms to offer highly private smart contract capabilities. It utilizes advanced Synthesis Puzzle technology to ensure transaction privacy and security. Aleo focuses on developing decentralized applications and provides efficient and secure privacy protection solutions.
 
 Please read the mining tutorial carefully and follow the steps to connect the mining machine to the mining pool.
 
@@ -85,7 +83,7 @@ tail -f prover.log
 If you see relevant success messages in <mark style="color:red;">`prover.log`</mark>, the program has started successfully.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/aleo miner.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **If you do not need to output log content, you can replace '&> prover.log &' in the startup command with '> /dev/null 2>&1 &'.**
