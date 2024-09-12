@@ -19,8 +19,6 @@ layout:
 
 # 🤖 Aleo挖礦教程 - Ubuntu
 
-{% embed url="https://oula.network/zh" %}
-
 > &#x20;❕ [Aleo](https://www.aleo.org/)是一個融合PoW和PoS共識機制的區塊鏈項目，旨在提供高度隱私的智能合約功能。其利用先進的Synthesis Puzzle技術來確保交易的隱私和安全性。Aleo專注於構建去中心化應用程序，提供高效且安全的隱私保護方案。
 
 
@@ -81,7 +79,7 @@ tail -f prover.log
 若在<mark style="color:red;">`prover.log`</mark>中見到相關成功訊息，則表示程序已成功啟動。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/aleo miner.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 如果您不需要輸出日誌內容，可以將啟動命令中的“&> prover.log &”替換為“> /dev/null 2>&1 &”。
