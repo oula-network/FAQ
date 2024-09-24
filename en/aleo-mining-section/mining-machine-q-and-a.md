@@ -19,7 +19,7 @@ layout:
 
 # 🖥️ Mining Machine Q\&A
 
-{% embed url="https://oula.network/en" %}
+{% embed url="https://oula.network/en/" %}
 
 **Q: Does Oula offer Aleo hosting service?**
 

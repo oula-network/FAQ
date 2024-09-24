@@ -19,7 +19,7 @@ layout:
 
 # ⚙️ Mining Configuration Q\&A
 
-{% embed url="https://oula.network/en" %}
+{% embed url="https://oula.network/en/" %}
 
 **Q: How to add a mining machine and set up miner account? How to enter the miner management backend?**
 

@@ -19,6 +19,8 @@ layout:
 
 # 🤖 Aleo Mining Tutorial - HiveOS
 
+{% embed url="https://oula.network/en/" %}
+
 &#x20;❕ [Aleo](https://www.aleo.org/) is a blockchain project that integrates Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms to offer highly private smart contract capabilities. It utilizes advanced Synthesis Puzzle technology to ensure transaction privacy and security. Aleo focuses on developing decentralized applications and provides efficient and secure privacy protection solutions.
 
 
@@ -28,8 +30,6 @@ Please read the mining tutorial carefully and follow the steps to connect the mi
 {% hint style="info" %}
 Please stay updated with [<mark style="color:blue;">**OULA's official website**</mark>](https://oula.network/en) announcements and use the latest version of the software client for optimal technical service and higher Token output.
 {% endhint %}
-
-
 
 ### **Environment Setup**
 
