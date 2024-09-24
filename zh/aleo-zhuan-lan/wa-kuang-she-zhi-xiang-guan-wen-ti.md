@@ -19,7 +19,7 @@ layout:
 
 # ⚙️ 挖礦設置相關問題
 
-{% embed url="https://oula.network/zh" %}
+{% embed url="https://oula.network/zh/" %}
 
 **Q: 如何添加礦工並設置礦工號？如何進入礦機管理後台？**
 

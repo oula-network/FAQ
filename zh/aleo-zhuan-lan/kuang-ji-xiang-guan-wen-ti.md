@@ -19,7 +19,7 @@ layout:
 
 # 🖥️ 礦機相關問題
 
-{% embed url="https://oula.network/zh" %}
+{% embed url="https://oula.network/zh/" %}
 
 **Q: Oula 賣 Aleo 礦機嗎？有提供礦機托管服務嗎？**
 

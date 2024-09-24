@@ -19,7 +19,7 @@ layout:
 
 # ⚡ 算力相關問題
 
-{% embed url="https://oula.network/zh" %}
+{% embed url="https://oula.network/zh/" %}
 
 **Q：本地算力和有效算力的區別？**
 

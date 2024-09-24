@@ -1,6 +1,6 @@
 # 💡 常見問題
 
-{% embed url="https://oula.network/zh" %}
+{% embed url="https://oula.network/zh/" %}
 
 **Q: Oula 目前支持哪些項目？**\
 A: 目前已上線 Aleo 項目。後續其他項目請關注我們的 [Twitter](https://x.com/oula\_network)、[官方網站](https://oula.network/zh)及[社群](https://t.me/oulacommunity)公告。

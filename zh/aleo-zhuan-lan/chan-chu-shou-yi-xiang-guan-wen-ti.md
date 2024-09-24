@@ -19,7 +19,9 @@ layout:
 
 # 🪙 產出收益相關問題
 
-{% embed url="https://oula.network/zh" %}
+
+
+{% embed url="https://oula.network/zh/" %}
 
 **Q: 如何理解產出界面的數據？**
 
