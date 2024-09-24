@@ -19,7 +19,7 @@ layout:
 
 # 🪙 Output and Earning Q\&A
 
-{% embed url="https://oula.network/en" %}
+{% embed url="https://oula.network/en/" %}
 
 **Q: How to understand the data on the output interface?**
 
