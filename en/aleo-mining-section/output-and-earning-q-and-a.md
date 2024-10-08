@@ -25,9 +25,9 @@ layout:
 
 A: The meanings of the data displayed are as follows:
 
-* **Total Output:** The historical total output from the creation of the worker account to 24:00 yesterday (UTC+8).
-* **Yest. Output:** The actual total output from 00:00 to 24:00 yesterday (UTC+8).
-* **Paid Out:** As of now (UTC+8), the system has paid the amount to this account, updated once daily.
+* **Total Output:** The historical total output from the creation of the worker account to UTC 24:00 yesterday.
+* **Yest. Output:** The actual total output from UTC 00:00 to 24:00 yesterday.
+* **Paid Out:** As of now (UTC 00:00), the system has paid the amount to this account, updated once daily.
 * **Unpaid:** Oula Pool typically completes payments within 24 hours after settlement, except in the following cases:&#x20;
   1. No address settings;&#x20;
   2. Total settlement amount does not reach the minimum payout threshold;&#x20;
