@@ -1,6 +1,6 @@
 # 🥸 新手指南
 
-{% embed url="https://oula.network/zh" %}
+{% embed url="https://oula.network/zh/" %}
 
 歡迎使用Oula平台挖礦服務 。如果您是第一次接觸礦池類產品，本文將為您介紹Oula平台礦池相關使用說明，希望會有所幫助。
 

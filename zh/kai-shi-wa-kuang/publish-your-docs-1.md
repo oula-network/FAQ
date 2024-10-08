@@ -19,7 +19,7 @@ layout:
 
 # 🤖 Aleo挖礦教程 - HiveOS
 
-{% embed url="https://oula.network/zh" %}
+{% embed url="https://oula.network/zh/" %}
 
 > &#x20;❕ [Aleo](https://www.aleo.org/)是一個融合PoW和PoS共識機制的區塊鏈項目，旨在提供高度隱私的智能合約功能。其利用先進的Synthesis Puzzle技術來確保交易的隱私和安全性。Aleo專注於構建去中心化應用程序，提供高效且安全的隱私保護方案。
 
@@ -113,7 +113,7 @@ nvidia-driver-update
 
     **挖礦軟體名稱**: `oulapool`
 
-    **安裝鏈接**: `https://oula-hiveos.oss-ap-southeast-1.aliyuncs.com/oulapool-v1.7.tar.gz`
+    **安裝鏈接**: <mark style="color:red;">`https://oula-hiveos.oss-ap-southeast-1.aliyuncs.com/oulapool-v1.8.tar.gz`</mark>
 
     **加密算法**: `aleo`
 
