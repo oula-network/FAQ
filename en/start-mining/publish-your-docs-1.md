@@ -65,6 +65,10 @@ update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 10
 nvidia-driver-update
 ```
 
+{% hint style="info" %}
+If you encounter any issues during the setup or use of HiveOS, or if you have other configuration-related questions, we recommend checking out the [HiveOS Official Guide](https://hiveon.com/knowledge-base/guides/) for detailed instructions and support. The guide covers solutions for both beginners and advanced users, helping you manage your mining environment more effectively. 📘
+{% endhint %}
+
 ### **Account Setup**
 
 * Register for an [**Oula Account**](https://oula.network/en/register) and setup the [**Sub-Account**](https://oula.network/en/pool/manager?tab=subAccount).
