@@ -58,9 +58,7 @@ farmer 包含以下组件：
 
 #### 服务器建议配置
 
-<table><thead><tr><th width="97">类别</th><th width="105">CPU</th><th width="99">内存</th><th width="85">GPU</th><th width="112">SSD</th><th width="116">网络</th><th width="181">运行组件</th></tr></thead><tbody><tr><td>节点机</td><td>64核</td><td>64G/128G</td><td>需要</td><td>500GiB</td><td>千兆网卡</td><td><code>controller</code> <code>autonomys-node</code> <code>proof-server</code> <code>nats-server</code></td></tr><tr><td>P 盘机</td><td>每个GPU需要30核</td><td>每个GPU需要 64 G</td><td>需要</td><td>20GiB 用于缓存 plot 数据</td><td>万兆网卡*2</td><td><code>plot-server</code> <code>sharded-cache</code> <code>full-piece-cache</code></td></tr><tr><td>存储机</td><td>取决于存储容量</td><td>取决于存储容量</td><td>不需要</td><td>取决于存储容量</td><td>万兆网卡*2</td><td><code>plot-client</code></td></tr></tbody></table>
-
-####
+<table data-view="cards"><thead><tr><th>类别</th><th>CPU</th><th>内存</th><th>GPU</th><th>SSD</th><th>网络</th><th>运行组件</th></tr></thead><tbody><tr><td>节点机</td><td>64核</td><td>64G/128G</td><td>需要</td><td>500GiB</td><td>千兆网卡</td><td><p><code>controller</code></p><p><code>autonomys-node</code></p><p><code>proof-server</code></p><p><code>nats-server</code></p></td></tr><tr><td>P 盘机</td><td>每个GPU需要30核</td><td>每个GPU需要 64 G</td><td>需要</td><td>20GiB 用于缓存 plot 数据</td><td>万兆网卡 * 2</td><td><p><code>plot-server</code></p><p><code>sharded-cache</code> </p><p><code>full-piece-cache</code></p></td></tr><tr><td>存储机</td><td>取决于存储容量</td><td>取决于存储容量</td><td>不需要</td><td>取决于存储容量</td><td>万兆网卡 * 2</td><td><code>plot-client</code></td></tr></tbody></table>
 
 #### 最佳实践
 
@@ -70,7 +68,7 @@ _以下名称 IP 等都是示例_
 
 #### 环境介绍
 
-<table><thead><tr><th width="107">列别</th><th width="118">ip 地址</th><th width="158">配置</th><th width="382">部署组件</th></tr></thead><tbody><tr><td>节点机1</td><td>192.168.1.1</td><td>GPU*1</td><td><code>controller</code> <code>autonomys-node</code> <code>proof-server</code> <code>nats-server</code></td></tr><tr><td>节点机2</td><td>192.168.1.2</td><td>GPU*1</td><td><code>controller</code> <code>autonomys-node</code> <code>proof-server</code> <code>nats-server</code></td></tr><tr><td>节点机3</td><td>192.168.1.3</td><td>GPU*1</td><td><code>controller</code> <code>autonomys-node</code> <code>proof-server</code> <code>nats-server</code></td></tr><tr><td>P 盘机1</td><td>192.168.1.4</td><td>GPU*4</td><td><code>autonomys-plot-server-0</code> <code>autonomys-plot-server-1</code> <code>autonomys-plot-server-2</code> <code>autonomys-plot-server-3</code> <code>sharded-cache</code> <code>full-piece-cache</code></td></tr><tr><td>P 盘机2</td><td>192.168.1.5</td><td>GPU*4</td><td><code>autonomys-plot-server-0</code> <code>autonomys-plot-server-1</code> <code>autonomys-plot-server-2</code> <code>autonomys-plot-server-3</code> <code>sharded-cache</code> <code>full-piece-cache</code></td></tr><tr><td>存储机1</td><td>192.168.1.6</td><td>8T NVMe*4 <code>/mnt/nvme0n1</code> <code>/mnt/nvme0n2</code> <code>/mnt/nvme1n2</code> <code>/mnt/nvme1n1</code></td><td><code>autonomys-plot-client</code></td></tr><tr><td>存储机2</td><td>192.168.1.7</td><td>8T NVMe*4 <code>/mnt/nvme0n1</code> <code>/mnt/nvme0n2</code> <code>/mnt/nvme1n1</code> <code>/mnt/nvme1n2</code></td><td><code>autonomys-plot-client</code></td></tr></tbody></table>
+<table><thead><tr><th width="107">類别</th><th width="118">ip 地址</th><th width="158">配置</th><th width="382">部署组件</th></tr></thead><tbody><tr><td>节点机1</td><td>192.168.1.1</td><td>GPU*1</td><td><p><code>controller</code> </p><p><code>autonomys-node</code> </p><p><code>proof-server</code> </p><p><code>nats-server</code></p></td></tr><tr><td>节点机2</td><td>192.168.1.2</td><td>GPU*1</td><td><p><code>controller</code> </p><p><code>autonomys-node</code> </p><p><code>proof-server</code> </p><p><code>nats-server</code></p></td></tr><tr><td>节点机3</td><td>192.168.1.3</td><td>GPU*1</td><td><p><code>controller</code> </p><p><code>autonomys-node</code> </p><p><code>proof-server</code> </p><p><code>nats-server</code></p></td></tr><tr><td>P 盘机1</td><td>192.168.1.4</td><td>GPU*4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> </p><p><code>full-piece-cache</code></p></td></tr><tr><td>P 盘机2</td><td>192.168.1.5</td><td>GPU*4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> </p><p><code>full-piece-cache</code></p></td></tr><tr><td>存储机1</td><td>192.168.1.6</td><td>8T NVMe*4 <code>/mnt/nvme0n1</code> <code>/mnt/nvme0n2</code> <code>/mnt/nvme1n2</code> <code>/mnt/nvme1n1</code></td><td><code>autonomys-plot-client</code></td></tr><tr><td>存储机2</td><td>192.168.1.7</td><td>8T NVMe*4 <code>/mnt/nvme0n1</code> <code>/mnt/nvme0n2</code> <code>/mnt/nvme1n1</code> <code>/mnt/nvme1n2</code></td><td><code>autonomys-plot-client</code></td></tr></tbody></table>
 
 #### Supervisor 配置
 
@@ -172,6 +170,8 @@ stdout_logfile=/var/log/autonomys-proof-server.log
 * \--nats-server 参数指定 nats 服务器地址
 * `CUDA_VISIBLE_DEVICES` 环境变量可以指定 GPU，0 表示 GPU0，1 表示GPU1，以此类推
 
+
+
 **存储机配置(以 4 盘为例)**
 
 **autonomys-plot-client**
@@ -196,6 +196,8 @@ stdout_logfile=/var/log/autonomys-plot-client.log
 
 * \--nats-server 参数指定 nats 服务器地址
 * path=/path/to/plot-dir，sectors=8000 指定 plot 文件路径以及 plot 的扇区数量
+
+
 
 **P 盘机配置 (以 4 GPU为例)**
 
@@ -344,7 +346,7 @@ NIC Legend:
 
 #### 使用命令
 
-手動执行以下命令，会在n秒后重新初始化整个集群
+完成执行，会在n秒后重新初始化整个集群
 
 {% code overflow="wrap" %}
 ```sh
@@ -356,6 +358,8 @@ reinitialization-cache \
 {% endcode %}
 
 • --delay 0: 初始化延迟，单位：秒
+
+
 
 模拟 plot 的 download sector 过程，对 cache cluster 发起请求，检查集群状态
 
