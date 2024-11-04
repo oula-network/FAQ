@@ -35,7 +35,7 @@ Please stay updated with [<mark style="color:blue;">**OULA's official website**<
 
 * **Operating Systems**: <mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
 * **NVIDIA Driver Version: **<mark style="color:red;">**545 or higher**</mark>
-* **Software Clients**: [**oula-pool-prover (**](https://github.com/oula-network/aleo/releases)<mark style="color:blue;">**1244c11-2024-08-26-1**</mark>[**)**](https://github.com/oula-network/aleo/releases)
+* **Software Clients**: [**oula-pool-prover** ](https://github.com/oula-network/aleo/releases)
 
 ### **Account Setup**
 
