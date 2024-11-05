@@ -23,7 +23,7 @@ layout:
 
 **Q: How to add a mining machine and set up miner account? How to enter the miner management backend?**
 
-A: Please refer to the [<mark style="color:blue;">**Aleo Mining Tutorial**</mark>](../start-mining/publish-your-docs.md). For new Oula users, please refer to detailed Beginner's Guide.
+A: Please refer to the [<mark style="color:blue;">**Aleo Mining Tutorial**</mark>](../start-mining/publish-your-docs-1.md). For new Oula users, please refer to detailed Beginner's Guide.
 
 
 
