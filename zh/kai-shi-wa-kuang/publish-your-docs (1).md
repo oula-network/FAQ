@@ -27,7 +27,7 @@ layout:
 
 ## 介紹
 
-Autonomys-farmer 包含以下組件：
+Autonomys-farmer 包含以下[組件](https://github.com/oula-network/autonomys/releases)：
 
 * `autonomys-controller` 負責代理 node rpc，用於管理集群組件
 * `sharded-cache` piece 分片緩存
@@ -62,12 +62,12 @@ Autonomys-farmer 包含以下組件：
 ### 最佳實踐
 
 {% hint style="info" %}
-_注：以下名稱 IP 等都是示例_
+_注：以下名稱、 IP 等都是示例_
 {% endhint %}
 
 #### 環境介紹
 
-<table><thead><tr><th width="109">列別</th><th width="116">ip 地址</th><th width="183">配置</th><th>部署組件</th></tr></thead><tbody><tr><td>節點機1</td><td>192.168.1.1</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>節點機2</td><td>192.168.1.2</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>節點機3</td><td>192.168.1.3</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>P 盤機1</td><td>192.168.1.4</td><td>GPU * 4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> <code>full-piece-cache</code></p></td></tr><tr><td>P 盤機2</td><td>192.168.1.5</td><td>GPU * 4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> <code>full-piece-cache</code></p></td></tr><tr><td>存儲機1</td><td>192.168.1.6</td><td><p>8T NVMe SSD * 4 </p><p><code>/mnt/nvme0n1</code> </p><p><code>/mnt/nvme0n2</code> </p><p><code>/mnt/nvme1n2</code> </p><p><code>/mnt/nvme1n1</code></p></td><td><code>autonomys-plot-client</code></td></tr><tr><td>存儲機2</td><td>192.168.1.7</td><td><p>8T NVMe SSD * 4 </p><p><code>/mnt/nvme0n1</code> </p><p><code>/mnt/nvme0n2</code> </p><p><code>/mnt/nvme1n1</code> </p><p><code>/mnt/nvme1n2</code></p></td><td><code>autonomys-plot-client</code></td></tr></tbody></table>
+<table><thead><tr><th width="109">服务器</th><th width="116">ip 地址</th><th width="183">配置</th><th>部署組件</th></tr></thead><tbody><tr><td>節點機1</td><td>192.168.1.1</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>節點機2</td><td>192.168.1.2</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>節點機3</td><td>192.168.1.3</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>P 盤機1</td><td>192.168.1.4</td><td>GPU * 4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> <code>full-piece-cache</code></p></td></tr><tr><td>P 盤機2</td><td>192.168.1.5</td><td>GPU * 4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> <code>full-piece-cache</code></p></td></tr><tr><td>存儲機1</td><td>192.168.1.6</td><td><p>8T NVMe SSD * 4 </p><p><code>/mnt/nvme0n1</code> </p><p><code>/mnt/nvme0n2</code> </p><p><code>/mnt/nvme1n2</code> </p><p><code>/mnt/nvme1n1</code></p></td><td><code>autonomys-plot-client</code></td></tr><tr><td>存儲機2</td><td>192.168.1.7</td><td><p>8T NVMe SSD * 4 </p><p><code>/mnt/nvme0n1</code> </p><p><code>/mnt/nvme0n2</code> </p><p><code>/mnt/nvme1n1</code> </p><p><code>/mnt/nvme1n2</code></p></td><td><code>autonomys-plot-client</code></td></tr></tbody></table>
 
 #### Supervisor 配置
 
@@ -79,10 +79,10 @@ _注：以下名稱 IP 等都是示例_
 部署順序： `nats-server` -> `autonomys-node` -> `controller` -> `proof-server`&#x20;
 {% endhint %}
 
-* **nats-server**
+<mark style="color:yellow;">**nats-server**</mark>
 
 {% hint style="warning" %}
-本軟件需要開啟 nats-server jetstream 功能，啟動 nats-server ，添加 `--jetstream flag`即可啟用
+本軟件需要開啟 nats-server jetstream 功能，啟動 nats-server ，添加 `--jetstream` flag即可啟用
 
 nats-server 的配置請參考[nats 官方文檔](https://docs.nats.io/running-a-nats-service/configuration/clustering) 以及 [autonomys nats 配置文檔](https://docs.autonomys.xyz/farming/advanced-cli/cluster#core-messaging-technology-natsio)。
 {% endhint %}
@@ -108,7 +108,7 @@ cluster {
 }
 ```
 
-* **autonomys-controller**
+<mark style="color:yellow;">**autonomys-controller**</mark>
 
 {% code overflow="wrap" %}
 ```ini
@@ -126,7 +126,7 @@ stdout_logfile=/var/log/autonomys-controller.log
 ```
 {% endcode %}
 
-* **autonomys-node**
+<mark style="color:yellow;">**autonomys-node**</mark>
 
 {% code overflow="wrap" %}
 ```ini
@@ -144,7 +144,7 @@ stdout_logfile=/var/log/autonomys-node.log
 ```
 {% endcode %}
 
-* **autonomys-proof-server**
+<mark style="color:yellow;">**autonomys-proof-server**</mark>
 
 {% code overflow="wrap" %}
 ```ini
@@ -168,6 +168,8 @@ stdout_logfile=/var/log/autonomys-proof-server.log
 * `--nats-server` 參數用於指定 nats 服務器地址
 * `CUDA_VISIBLE_DEVICES` 環境變量用於指定 GPU，0 表示 GPU0，1 表示GPU1，以此類推
 
+***
+
 **P 盤機配置 (以 4 GPU為例)**
 
 {% hint style="info" %}
@@ -176,7 +178,7 @@ stdout_logfile=/var/log/autonomys-proof-server.log
 `autonomys-plot-server` 組件從 `autonomys-sharded-cache` 和 `autonomys-full-piece-cache` 組件獲取 piece 用於 p 盤
 {% endhint %}
 
-**autonomys-sharded-cache**
+<mark style="color:yellow;">**autonomys-sharded-cache**</mark>
 
 {% code overflow="wrap" %}
 ```ini
@@ -196,10 +198,10 @@ stdout_logfile=/var/log/autonomys-sharded-cache.log
 
 啟動命令參數解釋：
 
-* `--nats-server` 參數用於指定 nats 服務器地址
-* `path=/path/to/autonomys-sharded-cache` 參數用於指定 piece 緩存存儲路徑
+* `--nats-server`參數用於指定 nats 服務器地址
+* `path=/path/to/autonomys-sharded-cache`參數用於指定 piece 緩存存儲路徑
 
-**autonomys-full-piece**
+<mark style="color:yellow;">**autonomys-full-piece**</mark>
 
 {% code overflow="wrap" %}
 ```ini
@@ -222,7 +224,7 @@ stdout_logfile=/var/log/autonomys-full-piece.log
 * `--nats-server` 參數用於指定 nats 服務器地址
 * `path=/path/to/autonomys-full-piece` 參數用於指定 full-piece 存儲路徑
 
-**autonomys-plot-server**
+<mark style="color:yellow;">**autonomys-plot-server**</mark>
 
 {% code overflow="wrap" %}
 ```ini
@@ -311,9 +313,11 @@ NIC Legend:
   NIC1: mlx5_1
 ```
 
+***
+
 **存儲機配置(以 4 盤為例)**
 
-**autonomys-plot-client**
+<mark style="color:yellow;">**autonomys-plot-client**</mark>
 
 {% code overflow="wrap" %}
 ```ini
