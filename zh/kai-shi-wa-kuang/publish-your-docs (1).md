@@ -40,7 +40,7 @@ Autonomys-farmer 包含以下[組件](https://github.com/oula-network/autonomys/
 
 目前所有的集群管理都是基於 nats 來做的，但是 cache 的具體數據傳輸是通過 TCP 做 p2p 傳輸。
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### 軟件和硬件環境建議配置
 
