@@ -8,9 +8,10 @@
 
 ## ⛏️ Start Mining
 
-* [🤖 Aleo Mining Tutorial - Ubuntu](start-mining/publish-your-docs.md)
-* [🤖 Aleo Mining Tutorial - HiveOS](start-mining/publish-your-docs-1.md)
-* [🤖 Aleo Mining Tutorial - Solo](start-mining/publish-your-docs-2.md)
+* [🤖 Autonomys Mining Tutorial - Linux](start-mining/publish-your-docs.md)
+* [🤖 Aleo Mining Tutorial - Ubuntu](start-mining/publish-your-docs-1.md)
+* [🤖 Aleo Mining Tutorial - HiveOS](start-mining/publish-your-docs-2.md)
+* [🤖 Aleo Mining Tutorial - Solo](start-mining/publish-your-docs-3.md)
 
 ## ❓ Aleo Mining Section
 
