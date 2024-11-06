@@ -31,7 +31,7 @@ layout:
 
 #### **Q: Autonomys須使用哪種錢包？**
 
-**A: 建議**使用 **Subwallet** 錢包，詳細設置指南請參考：[Subwallet 安裝指南](https://docs.autonomys.xyz/wallets/subwallet/)。
+**A: 建議**使用 [**Subwallet**](../) 錢包，詳細設置指南請參考：[Subwallet 安裝指南](https://docs.autonomys.xyz/wallets/subwallet/)。
 
 {% embed url="https://www.youtube.com/watch?feature=youtu.be&v=Gsjfxhnw-1w" %}
 
