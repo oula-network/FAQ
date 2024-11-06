@@ -19,3 +19,8 @@
 * [⚡ Power Q\&A](aleo-mining-section/power-q-and-a.md)
 * [⚙️ Mining Configuration Q\&A](aleo-mining-section/mining-configuration-q-and-a.md)
 * [🪙 Output and Earning Q\&A](aleo-mining-section/output-and-earning-q-and-a.md)
+
+## ❓ Autonomys Mining Section
+
+* [🖥️ Mining Machine Q\&A](autonomys-mining-section/mining-machine-q-and-a.md)
+* [🔍 Project Q\&A](autonomys-mining-section/project-q-and-a.md)

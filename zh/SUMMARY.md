@@ -20,3 +20,8 @@
 * [⚡ 算力相關問題](aleo-zhuan-lan/suan-li-xiang-guan-wen-ti.md)
 * [⚙️ 挖礦設置相關問題](aleo-zhuan-lan/wa-kuang-she-zhi-xiang-guan-wen-ti.md)
 * [🪙 產出收益相關問題](aleo-zhuan-lan/chan-chu-shou-yi-xiang-guan-wen-ti.md)
+
+## ❓ Autonomys專欄
+
+* [🔍 项目相關問題](autonomys-zhuan-lan/xiang-mu-xiang-guan-wen-ti.md)
+* [🖥️ 矿机相關問題](autonomys-zhuan-lan/kuang-ji-xiang-guan-wen-ti.md)
