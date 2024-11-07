@@ -23,5 +23,5 @@
 
 ## ❓ Autonomys專欄
 
-* [🔍 项目相關問題](autonomys-zhuan-lan/xiang-mu-xiang-guan-wen-ti.md)
 * [🖥️ 矿机相關問題](autonomys-zhuan-lan/kuang-ji-xiang-guan-wen-ti.md)
+* [🔍 项目相關問題](autonomys-zhuan-lan/xiang-mu-xiang-guan-wen-ti.md)
