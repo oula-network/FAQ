@@ -368,10 +368,6 @@ sharded-cache-benchmark \
 
 ***
 
-Here’s the English translation for the provided content:
-
-***
-
 ### Autonomys Piece Conversion Tool
 
 The Autonomys Piece Conversion Tool allows you to convert data synchronized by `autonomys-node` into `piece` cache data. Please follow the steps below to export `piece` cache data:
