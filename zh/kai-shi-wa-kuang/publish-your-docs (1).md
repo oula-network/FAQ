@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/中文.jpg
+cover: ../.gitbook/assets/aa.png
 coverY: 0
 layout:
   cover:
@@ -340,9 +340,9 @@ stdout_logfile=/var/log/autonomys-plot-client.log
 * `--nats-server` 參數用於指定 nats 服務器地址
 * `path=/path/to/plot-dir,sectors=8000` 參數用於指定 plot 的文件路徑以及 plot 的扇區數量
 
-### 附錄
+## 附錄
 
-#### 使用命令
+### 使用命令
 
 手動初始化集群，執行後會在n秒後重新初始化整個集群
 
@@ -365,6 +365,56 @@ sharded-cache-benchmark \
     --epoch 1 \
     --cache-item-type split-parity-piece
 ```
+
+### Autonomys Piece轉換工具
+
+可以把 autonomys-node 同步後的資料轉換成 piece 快取資料
+
+使用以下指令導出 piece 快取資料:
+
+```
+NODE_URL="http://192.168.1.1:9944" ./autonomys-export-piece
+```
+
+運行後，產生的piece資料會自動儲存到本機目錄的 `full-cache-tmp` 資料夾下。然後，直接將 `autonomys-full-piece` 組件的 `path` 參數指定到該目錄即可。
+
+**注意: NODE\_URL 指定的 autonomys-node 的啟動指令必須新增 `--sync=full` 參數**
+
+#### Autonomys Piece 轉換工具
+
+可以將 `autonomys-node` 同步後的數據轉換為 `piece` 快取資料。請按照以下步驟導出 `piece` 快取資料：
+
+1.  使用命令：
+
+    ```bash
+    NODE_URL="http://192.168.1.1:9944" ./autonomys-export-piece
+    ```
+2. 運行指令後，生成的 `piece` 資料會自動儲存至本機的 `full-cache-tmp` 資料夾。
+3. 在使用 `autonomys-full-piece` 組件時，將 `path` 參數指定為該目錄即可。
+
+{% hint style="warning" %}
+`NODE_URL` 中指定的 `autonomys-node` 啟動指令必須包含 `--sync=full` 參數。
+{% endhint %}
+
+***
+
+#### 英文
+
+### Autonomys Piece Conversion Tool
+
+The Autonomys Piece Conversion Tool allows you to convert data synchronized by `autonomys-node` into `piece` cache data. Follow the steps below to export `piece` cache data:
+
+1.  Run the following command:
+
+    ```bash
+    NODE_URL="http://192.168.1.1:9944" ./autonomys-export-piece
+    ```
+2. After executing the command, the generated `piece` data will be automatically saved to the `full-cache-tmp` directory on your local machine.
+3. When using the `autonomys-full-piece` component, simply set the `path` parameter to this directory.
+
+> **Note**: The startup command for `autonomys-node` specified in `NODE_URL` must include the `--sync=full` parameter.
+
+
 
 
 

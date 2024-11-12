@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/英文.jpg
+cover: ../.gitbook/assets/aa.png
 coverY: 0
 layout:
   cover:
@@ -340,9 +340,9 @@ stdout_logfile=/var/log/autonomys-plot-client.log
 * `--nats-server` : Used to specify the address of the NATS server.
 * `path=/path/to/plot-dir,sectors=8000`: Specifies the file path for plots as well as the number of sectors for the plot, with `8000` as the sector count in this example.
 
-### Appendix
+## Appendix
 
-#### **Using the Command**
+### **Using the Command**
 
 Execute the command to manually initialize the cluster. The entire cluster will be reinitialized after **n** seconds.
 
@@ -365,6 +365,26 @@ sharded-cache-benchmark \
     --epoch 1 \
     --cache-item-type split-parity-piece
 ```
+
+***
+
+### Autonomys Piece Conversion Tool
+
+The Autonomys Piece Conversion Tool allows you to convert data synchronized by `autonomys-node` into `piece` cache data. Please follow the steps below to export `piece` cache data:
+
+1.  Use the following command:
+
+    ```bash
+    NODE_URL="http://192.168.1.1:9944" ./autonomys-export-piece
+    ```
+2. After executing the command, the generated `piece` data will be automatically saved to the `full-cache-tmp` directory on your local machine.
+3. Simply set the `path` parameter of the `autonomys-full-piece` component to this directory.
+
+{% hint style="warning" %}
+**Note**: The startup command for `autonomys-node` specified in `NODE_URL` must include the `--sync=full` parameter.
+{% endhint %}
+
+
 
 
 

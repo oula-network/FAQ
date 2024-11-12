@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/中文.jpg
+cover: ../.gitbook/assets/aa.png
 coverY: 0
 layout:
   cover:
@@ -103,6 +103,15 @@ layout:
 #### **Q: 如何查詢官方鏈上數據？**
 
 **A:** 鏈上數據可以官方瀏覽器進行查詢：[Astral - Autonomys Explorer](https://astral.autonomys.xyz/)。
+
+***
+
+**Q:** 如何理解「全網名義算力」和「全網出塊算力」？
+
+**A:**
+
+* **全網名義算力**：指理論上的總算力，是出塊算力與損失算力的總和。損失算力主要因分叉、硬碟故障或 Proof 計算速度過慢導致丟塊等問題而產生。
+* **全網出塊算力**：指能夠產生收益的有效算力。出塊算力根據難度值來計算，難度值由出塊速度決定，並與收益直接相關。
 
 
 

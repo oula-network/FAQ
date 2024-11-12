@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/英文.jpg
+cover: ../.gitbook/assets/aa.png
 coverY: 0
 layout:
   cover:
@@ -97,6 +97,15 @@ layout:
 
 **Q: How can I query on-chain data from the official explorer?**\
 **A:** On-chain data can be queried through the official explorer: [Astral - Autonomys Explorer](https://astral.autonomys.xyz/).
+
+***
+
+**Q:** **How to understand "Total Network Theoretical Power" and "Total Network Effective Power"?**
+
+**A:**
+
+* **Total Network Theoretical Power**: Refers to the theoretical total power, which is the sum of block production power and loss power. Loss power is typically caused by issues like forks, disk failures, or delays in proof computation that lead to block loss.
+* **Total Network Effective Power**: Refers to the effective power that generates revenue. It is calculated based on difficulty, which is determined by block production speed and directly impacts earnings.
 
 
 
