@@ -366,21 +366,7 @@ sharded-cache-benchmark \
     --cache-item-type split-parity-piece
 ```
 
-### Autonomys Piece轉換工具
-
-可以把 autonomys-node 同步後的資料轉換成 piece 快取資料
-
-使用以下指令導出 piece 快取資料:
-
-```
-NODE_URL="http://192.168.1.1:9944" ./autonomys-export-piece
-```
-
-運行後，產生的piece資料會自動儲存到本機目錄的 `full-cache-tmp` 資料夾下。然後，直接將 `autonomys-full-piece` 組件的 `path` 參數指定到該目錄即可。
-
-**注意: NODE\_URL 指定的 autonomys-node 的啟動指令必須新增 `--sync=full` 參數**
-
-#### Autonomys Piece 轉換工具
+### Autonomys Piece 轉換工具
 
 可以將 `autonomys-node` 同步後的數據轉換為 `piece` 快取資料。請按照以下步驟導出 `piece` 快取資料：
 
@@ -395,24 +381,6 @@ NODE_URL="http://192.168.1.1:9944" ./autonomys-export-piece
 {% hint style="warning" %}
 `NODE_URL` 中指定的 `autonomys-node` 啟動指令必須包含 `--sync=full` 參數。
 {% endhint %}
-
-***
-
-#### 英文
-
-### Autonomys Piece Conversion Tool
-
-The Autonomys Piece Conversion Tool allows you to convert data synchronized by `autonomys-node` into `piece` cache data. Follow the steps below to export `piece` cache data:
-
-1.  Run the following command:
-
-    ```bash
-    NODE_URL="http://192.168.1.1:9944" ./autonomys-export-piece
-    ```
-2. After executing the command, the generated `piece` data will be automatically saved to the `full-cache-tmp` directory on your local machine.
-3. When using the `autonomys-full-piece` component, simply set the `path` parameter to this directory.
-
-> **Note**: The startup command for `autonomys-node` specified in `NODE_URL` must include the `--sync=full` parameter.
 
 
 
