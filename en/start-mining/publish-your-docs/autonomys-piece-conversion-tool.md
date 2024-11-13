@@ -13,7 +13,7 @@ The Autonomys Piece Conversion Tool allows you to convert data synchronized by `
 3. Simply set the `path` parameter of the `autonomys-full-piece` component to this directory.
 
 {% hint style="warning" %}
-**Note**: The startup command for `autonomys-node` specified in `NODE_URL` must include the `--sync=full` parameter.
+**Note**: The startup command for `autonomys-node` specified in `NODE_URL` must include the **`--sync=full --blocks-pruning=archive`** parameter.
 {% endhint %}
 
 
