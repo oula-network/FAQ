@@ -23,7 +23,7 @@ layout:
 
 ### Autonomys Piece 驗證工具
 
-可以驗證已生成的 `piece` 資料，運行以下指令即可驗證：
+可以驗證已生成的 `piece` 數據，運行以下指令即可驗證：
 
 {% code overflow="wrap" %}
 ```bash
