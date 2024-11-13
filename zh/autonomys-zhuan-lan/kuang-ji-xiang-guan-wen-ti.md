@@ -51,7 +51,7 @@ layout:
 
 #### **Q: 挖礦所需的最低硬件配置是什麼？**
 
-**A: 請參照**[**挖礦教程**](<../kai-shi-wa-kuang/publish-your-docs (1).md#ruan-jian-he-ying-jian-huan-jing-jian-yi-pei-zhi>)**中建議的配置。**
+**A: 請參照**[**挖礦教程**](../kai-shi-wa-kuang/publish-your-docs/#ruan-jian-he-ying-jian-huan-jing-jian-yi-pei-zhi)**中建議的配置。**
 
 ***
 
