@@ -1,3 +1,22 @@
+---
+cover: ../../.gitbook/assets/aa.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # ⚡ Fast Node Data Download
 
 ### Fast Node Data Download
@@ -12,3 +31,6 @@ You can download pre-synced `node` data from Baidu Cloud, with the file name `no
 
 **Download Link**: [https://pan.baidu.com/s/105H1EOrnfA9hcpcU265RcA](https://pan.baidu.com/s/105H1EOrnfA9hcpcU265RcA)\
 **Access Code**: 67nq
+
+
+

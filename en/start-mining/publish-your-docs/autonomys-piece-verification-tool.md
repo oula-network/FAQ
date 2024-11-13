@@ -1,3 +1,22 @@
+---
+cover: ../../.gitbook/assets/aa.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # ✔️ Autonomys Piece Verification Tool
 
 ### Autonomys Piece Verification Tool
