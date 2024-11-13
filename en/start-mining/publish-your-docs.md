@@ -57,7 +57,7 @@ This software is only supported on Linux operating systems and Nvidia GPU enviro
 
 #### Recommended Server Configuration
 
-<table data-view="cards"><thead><tr><th>Server</th><th>CPU</th><th>MEM</th><th>GPU</th><th>SSD</th><th>Ethernet</th><th>Running Components</th></tr></thead><tbody><tr><td>Node</td><td>64 cores</td><td>64GB / 128GB</td><td>Required</td><td>500GiB</td><td>at least 1 Gbps</td><td><p><code>controller</code> </p><p><code>autonomys-node</code> </p><p><code>proof-server</code> </p><p><code>nats-server</code></p></td></tr><tr><td>Plotter</td><td>at least 30 cores per GPU</td><td>at least 64GB per GPU</td><td>Required</td><td>at least <strong>20 GiB</strong> for caching plot data</td><td>at least 20 Gbps</td><td><p><code>plot-server</code> </p><p><code>sharded-cache</code> </p><p><code>full-piece-cache</code></p></td></tr><tr><td>Storage</td><td>depending on the storage capacity</td><td>depending on the storage capacity</td><td>Not Required</td><td>depending on the storage capacity</td><td>at least 20 Gbps</td><td><code>plot-client</code></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Server</th><th>CPU</th><th>MEM</th><th>GPU</th><th>SSD</th><th>Ethernet</th><th>Running Components</th></tr></thead><tbody><tr><td>Node</td><td>64 cores</td><td>64GB / 128GB</td><td>Required</td><td>500GiB</td><td>at least 1 Gbps</td><td><p><code>controller</code> </p><p><code>autonomys-node</code> </p><p><code>proof-server</code> </p><p><code>nats-server</code></p></td></tr><tr><td>Plotter</td><td>at least 30 cores per GPU</td><td>at least 64GB per GPU</td><td>Required</td><td>at least <strong>1 TiB</strong> for caching plot data</td><td>at least 20 Gbps</td><td><p><code>plot-server</code> </p><p><code>sharded-cache</code> </p><p><code>full-piece-cache</code></p></td></tr><tr><td>Storage</td><td>depending on the storage capacity</td><td>depending on the storage capacity</td><td>Not Required</td><td>depending on the storage capacity</td><td>at least 20 Gbps</td><td><code>plot-client</code></td></tr></tbody></table>
 
 ### Best Practices
 
@@ -383,6 +383,35 @@ The Autonomys Piece Conversion Tool allows you to convert data synchronized by `
 {% hint style="warning" %}
 **Note**: The startup command for `autonomys-node` specified in `NODE_URL` must include the `--sync=full` parameter.
 {% endhint %}
+
+***
+
+Here’s the English version optimized for GitBook:
+
+***
+
+### Autonomys Piece Verification Tool
+
+The Autonomys Piece Verification Tool allows you to verify generated `piece` data. Run the following command to initiate verification:
+
+{% code overflow="wrap" %}
+```bash
+./autonomys-farmer util verify-piece --nats-server nats://192.168.1.1:4222 --nats-server nats://192.168.1.2:4222 --nats-server nats://192.168.1.3:4222
+```
+{% endcode %}
+
+### Fast Node Data Download
+
+You can download pre-synced `node` data from Baidu Cloud, with the file name `node-db.tar.gz`. After downloading and extracting, you’ll still need to sync the latest node data, but the process will be significantly faster.
+
+> <mark style="color:red;">**Data Update**</mark><mark style="color:red;">: The data is current as of November 12, 2024, at 23:00 Singapore Time.</mark>
+
+{% hint style="warning" %}
+**Note**: This is raw `node` data, and it must be converted into `piece` data using the `autonomys-export-piece` tool before it can be used for packaging.
+{% endhint %}
+
+**Download Link**: https://pan.baidu.com/s/105H1EOrnfA9hcpcU265RcA\
+**Access Code**: 67nq
 
 
 
