@@ -1,77 +1,16 @@
----
-cover: ../.gitbook/assets/aa.png
-coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
----
-
-# 🤖 Autonomys Mining Tutorial - Linux
-
-{% embed url="https://oula.network/zh/" %}
-
-{% hint style="info" %}
-Please carefully read the Farmer deployment documentation and follow the steps to complete the cluster deployment process.
-{% endhint %}
-
-## Introduction
-
-Autonomys-farmer consists of [**the following components**](https://github.com/oula-network/autonomys/releases):
-
-* **autonomys-controller**: Responsible for proxying node RPC, used to manage cluster components.
-* **sharded-cache**: Piece sharded cache.
-* **full-piece-sharded-cache**: Full node of piece sharded cache.
-* **proof-server**: GPU-based block generation, used for computing proofs.
-* **plot-server**: Plotting service, responsible for encoding data.
-* **plot-client**: Farming component, used for scanning disks and submitting solutions.
-
-### Architecture
-
-Currently, all cluster management is based on **NATS**, but the actual data transmission for the cache is done through **TCP** for peer-to-peer (P2P) communication.
-
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-### Recommended Software and Hardware Configuration
-
-This software is only supported on Linux operating systems and Nvidia GPU environments.
-
-#### **Operating System and Dependency Software**
-
-* **Operating System**: Ubuntu 22.04
-* **GPU Driver Version**: ≥ 525.60.13, or alternatively, install **CUDA 12.4** directly.
-* **File System**: Ext4
-* **Supervisor**: 4
-* **NATS Server**: v2.10.22
-* **numactl**: Required for managing NUMA (Non-Uniform Memory Access) nodes
-
-#### Recommended Server Configuration
-
-<table data-view="cards"><thead><tr><th>Server</th><th>CPU</th><th>MEM</th><th>GPU</th><th>SSD</th><th>Ethernet</th><th>Running Components</th></tr></thead><tbody><tr><td>Node</td><td>64 cores</td><td>64GB / 128GB</td><td>Required</td><td>500GiB</td><td>at least 1 Gbps</td><td><p><code>controller</code> </p><p><code>autonomys-node</code> </p><p><code>proof-server</code> </p><p><code>nats-server</code></p></td></tr><tr><td>Plotter</td><td>at least 30 cores per GPU</td><td>at least 64GB per GPU</td><td>Required</td><td>at least <strong>1 TiB</strong> for caching plot data</td><td>at least 20 Gbps</td><td><p><code>plot-server</code> </p><p><code>sharded-cache</code> </p><p><code>full-piece-cache</code></p></td></tr><tr><td>Storage</td><td>depending on the storage capacity</td><td>depending on the storage capacity</td><td>Not Required</td><td>depending on the storage capacity</td><td>at least 20 Gbps</td><td><code>plot-client</code></td></tr></tbody></table>
-
-### Best Practices
+# 😉 Best Practices
 
 {% hint style="info" %}
 **Note**: The following names, IP addresses and other details are examples.
 {% endhint %}
 
-#### Environment Overview
+## Environment Overview
 
 <table><thead><tr><th width="119">Server</th><th width="126">IP Address</th><th width="183">Configuration</th><th>Component</th></tr></thead><tbody><tr><td>Node 1</td><td>192.168.1.1</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>Node 2</td><td>192.168.1.2</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>Node 3</td><td>192.168.1.3</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>Plotter 1</td><td>192.168.1.4</td><td>GPU * 4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> <code>full-piece-cache</code></p></td></tr><tr><td>Plotter 2</td><td>192.168.1.5</td><td>GPU * 4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> <code>full-piece-cache</code></p></td></tr><tr><td>Storage 1</td><td>192.168.1.6</td><td><p>8T NVMe SSD * 4 </p><p><code>/mnt/nvme0n1</code> </p><p><code>/mnt/nvme0n2</code> </p><p><code>/mnt/nvme1n2</code> </p><p><code>/mnt/nvme1n1</code></p></td><td><code>autonomys-plot-client</code></td></tr><tr><td>Storage 2</td><td>192.168.1.7</td><td><p>8T NVMe SSD * 4 </p><p><code>/mnt/nvme0n1</code> </p><p><code>/mnt/nvme0n2</code> </p><p><code>/mnt/nvme1n1</code> </p><p><code>/mnt/nvme1n2</code></p></td><td><code>autonomys-plot-client</code></td></tr></tbody></table>
 
-#### Supervisor Configuration
+## Supervisor Configuration
 
-#### Node Configuration
+### Node Configuration
 
 {% hint style="info" %}
 Each node requires the deployment of 4 components: `controller` `autonomys-node` `proof-server` `nats-server`&#x20;
@@ -170,7 +109,7 @@ stdout_logfile=/var/log/autonomys-proof-server.log
 
 ***
 
-**Plotter Configuration (Example with 4 GPUs)**
+### **Plotter Configuration (Example with 4 GPUs)**
 
 {% hint style="info" %}
 Each plotter requires the deployment of e components:  `autonomys-plot-server`, `autonomys-sharded-cache`and `autonomys-full-piece-cache`
@@ -315,7 +254,7 @@ NIC Legend:
 
 ***
 
-#### **Storage Configuration** (Example with 4 Drives)
+### **Storage Configuration** (Example with 4 Drives)
 
 <mark style="color:yellow;">**autonomys-plot-client**</mark>
 
@@ -340,79 +279,5 @@ stdout_logfile=/var/log/autonomys-plot-client.log
 * `--nats-server` : Used to specify the address of the NATS server.
 * `path=/path/to/plot-dir,sectors=8000`: Specifies the file path for plots as well as the number of sectors for the plot, with `8000` as the sector count in this example.
 
-## Appendix
-
-### **Using the Command**
-
-Execute the command to manually initialize the cluster. The entire cluster will be reinitialized after **n** seconds.
-
-```sh
-autonomys-farmer util \
-reinitialization-cache \
-    --nats-servers nats://192.168.200.6:4222 \
-    --delay 0
-```
-
-• `--delay 0`: Initialization delay, in seconds.
-
-Simulate the **plot download sector** process by sending requests to the cache cluster and checking the cluster status.
-
-```sh
-autonomys-farmer util \
-sharded-cache-benchmark \
-    --nats-servers nats://192.168.0.2:4222 \
-    --sectors 256 \
-    --epoch 1 \
-    --cache-item-type split-parity-piece
-```
-
-***
-
-### Autonomys Piece Conversion Tool
-
-The Autonomys Piece Conversion Tool allows you to convert data synchronized by `autonomys-node` into `piece` cache data. Please follow the steps below to export `piece` cache data:
-
-1.  Use the following command:
-
-    ```bash
-    NODE_URL="http://192.168.1.1:9944" ./autonomys-export-piece
-    ```
-2. After executing the command, the generated `piece` data will be automatically saved to the `full-cache-tmp` directory on your local machine.
-3. Simply set the `path` parameter of the `autonomys-full-piece` component to this directory.
-
-{% hint style="warning" %}
-**Note**: The startup command for `autonomys-node` specified in `NODE_URL` must include the `--sync=full` parameter.
-{% endhint %}
-
-***
-
-### Autonomys Piece Verification Tool
-
-The Autonomys Piece Verification Tool allows you to verify generated `piece` data. Run the following command to initiate verification:
-
-{% code overflow="wrap" %}
-```bash
-./autonomys-farmer util verify-piece --nats-server nats://192.168.1.1:4222 --nats-server nats://192.168.1.2:4222 --nats-server nats://192.168.1.3:4222
-```
-{% endcode %}
-
-***
-
-### Fast Node Data Download
-
-You can download pre-synced `node` data from Baidu Cloud, with the file name `node-db.tar.gz`. After downloading and extracting, you’ll still need to sync the latest node data, but the process will be significantly faster.
-
-> <mark style="color:red;">**Data Update**</mark><mark style="color:red;">: The data is current as of November 12, 2024, at 23:00 Singapore Time.</mark>
-
-{% hint style="warning" %}
-**Note**: This is raw `node` data, and it must be converted into `piece` data using the `autonomys-export-piece` tool before it can be used for packaging.
-{% endhint %}
-
-**Download Link**: https://pan.baidu.com/s/105H1EOrnfA9hcpcU265RcA\
-**Access Code**: 67nq
 
 
-
-
-
-[**Back to Oula**](https://oula.network/en/login)
