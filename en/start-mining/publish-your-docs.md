@@ -386,10 +386,6 @@ The Autonomys Piece Conversion Tool allows you to convert data synchronized by `
 
 ***
 
-Here’s the English version optimized for GitBook:
-
-***
-
 ### Autonomys Piece Verification Tool
 
 The Autonomys Piece Verification Tool allows you to verify generated `piece` data. Run the following command to initiate verification:
@@ -399,6 +395,8 @@ The Autonomys Piece Verification Tool allows you to verify generated `piece` dat
 ./autonomys-farmer util verify-piece --nats-server nats://192.168.1.1:4222 --nats-server nats://192.168.1.2:4222 --nats-server nats://192.168.1.3:4222
 ```
 {% endcode %}
+
+***
 
 ### Fast Node Data Download
 
