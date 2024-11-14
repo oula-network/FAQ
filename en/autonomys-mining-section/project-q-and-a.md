@@ -21,8 +21,22 @@ layout:
 
 {% embed url="https://oula.network/en/" %}
 
+**Q: How can I query on-chain data from the official explorer?**\
+**A:** On-chain data can be queried through the official explorer: [Astral - Autonomys Explorer](https://astral.autonomys.xyz/).
+
+***
+
+**Q:** **How to understand "Total Network Theoretical Power" and "Total Network Effective Power"?**
+
+**A:**
+
+* **Total Network Theoretical Power**: Refers to the theoretical total power, which is the sum of block production power and loss power. Loss power is typically caused by issues like forks, disk failures, or delays in proof computation that lead to block loss.
+* **Total Network Effective Power**: Refers to the effective power that generates revenue. It is calculated based on difficulty, which is determined by block production speed and directly impacts earnings.
+
+***
+
 **Q: What is the conversion rate between tSSC and AI3?**\
-**A:** The official token economics will be made public on November 13, 2024. Due to different incentive stages with various reward pools and mechanisms, there is no unified conversion rate from tSSC to AI3. Please refer to the [README](https://github.com/subspace/incentivized-testnets) file for the specific calculation method.
+**A:** Due to different incentive stages with various reward pools and mechanisms, there is no unified conversion rate from tSSC to AI3. Please refer to the [README](https://github.com/subspace/incentivized-testnets) file for the specific calculation method.
 
 ***
 
@@ -30,11 +44,6 @@ layout:
 **A:** It is recommended to use the [**Subwallet**](https://www.subwallet.app/). For a detailed setup guide, please refer to the [Subwallet Installation Guide](https://docs.autonomys.xyz/wallets/subwallet/).
 
 {% embed url="https://youtu.be/Gsjfxhnw-1w" %}
-
-***
-
-**Q: What is the maximum supply of AI3?**\
-**A:** The maximum supply of AI3 on the mainnet is **1 billion tokens**.
 
 ***
 
@@ -92,20 +101,6 @@ layout:
 
 **Q: What is the logic for calculating mining power? What unit is used?**\
 **A:** Mining power is directly correlated with the storage size, so the unit for mining power is **MiB**.
-
-***
-
-**Q: How can I query on-chain data from the official explorer?**\
-**A:** On-chain data can be queried through the official explorer: [Astral - Autonomys Explorer](https://astral.autonomys.xyz/).
-
-***
-
-**Q:** **How to understand "Total Network Theoretical Power" and "Total Network Effective Power"?**
-
-**A:**
-
-* **Total Network Theoretical Power**: Refers to the theoretical total power, which is the sum of block production power and loss power. Loss power is typically caused by issues like forks, disk failures, or delays in proof computation that lead to block loss.
-* **Total Network Effective Power**: Refers to the effective power that generates revenue. It is calculated based on difficulty, which is determined by block production speed and directly impacts earnings.
 
 
 
