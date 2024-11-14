@@ -19,8 +19,6 @@ layout:
 
 # Introduction
 
-## Introduction <a href="#introduction-of-farmer" id="introduction-of-farmer"></a>
-
 Autonomys-farmer consists of [**the following components**](https://github.com/oula-network/autonomys/releases):
 
 * **autonomys-controller**: Responsible for proxying node RPC, used to manage cluster components.

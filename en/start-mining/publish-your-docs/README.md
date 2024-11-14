@@ -11,14 +11,6 @@ coverY: 0
 Please carefully read the Farmer deployment documentation and follow the steps to complete the cluster deployment process.
 {% endhint %}
 
-#### [#introduction-of-farmer-1](./#introduction-of-farmer-1 "mention") <a href="#introduction-of-farmer" id="introduction-of-farmer"></a>
-
-{% content-ref url="best-practices.md" %}
-[best-practices.md](best-practices.md)
-{% endcontent-ref %}
-
-
-
 ## Introduction <a href="#introduction-of-farmer" id="introduction-of-farmer"></a>
 
 Autonomys-farmer consists of [**the following components**](https://github.com/oula-network/autonomys/releases):
@@ -30,17 +22,17 @@ Autonomys-farmer consists of [**the following components**](https://github.com/o
 * **plot-server**: Plotting service, responsible for encoding data.
 * **plot-client**: Farming component, used for scanning disks and submitting solutions.
 
-### Architecture
+## Architecture
 
 Currently, all cluster management is based on **NATS**, but the actual data transmission for the cache is done through **TCP** for peer-to-peer (P2P) communication.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### Recommended Software and Hardware Configuration
+## Recommended Software and Hardware Configuration
 
 This software is only supported on Linux operating systems and Nvidia GPU environments.
 
-#### **Operating System and Dependency Software**
+### **Operating System and Dependency Software**
 
 * **Operating System**: Ubuntu 22.04
 * **GPU Driver Version**: ≥ 525.60.13, or alternatively, install **CUDA 12.4** directly.
@@ -49,21 +41,29 @@ This software is only supported on Linux operating systems and Nvidia GPU enviro
 * **NATS Server**: v2.10.22
 * **numactl**: Required for managing NUMA (Non-Uniform Memory Access) nodes
 
-#### Recommended Server Configuration
+### Recommended Server Configuration
 
 <table data-view="cards"><thead><tr><th>Server</th><th>CPU</th><th>MEM</th><th>GPU</th><th>SSD</th><th>Ethernet</th><th>Running Components</th></tr></thead><tbody><tr><td>Node</td><td>64 cores</td><td>64GB / 128GB</td><td>Required</td><td>500GiB</td><td>at least 1 Gbps</td><td><p><code>controller</code> </p><p><code>autonomys-node</code> </p><p><code>proof-server</code> </p><p><code>nats-server</code></p></td></tr><tr><td>Plotter</td><td>at least 30 cores per GPU</td><td>at least 64GB per GPU</td><td>Required</td><td>at least <strong>1 TiB</strong> for caching plot data</td><td>at least 20 Gbps</td><td><p><code>plot-server</code> </p><p><code>sharded-cache</code> </p><p><code>full-piece-cache</code></p></td></tr><tr><td>Storage</td><td>depending on the storage capacity</td><td>depending on the storage capacity</td><td>Not Required</td><td>depending on the storage capacity</td><td>at least 20 Gbps</td><td><code>plot-client</code></td></tr></tbody></table>
 
-### Best Practices
+## Best Practices
 
 {% hint style="info" %}
 **Note**: The following names, IP addresses and other details are examples.
 {% endhint %}
 
-#### Environment Overview
+### Environment Overview
 
 <table><thead><tr><th width="119">Server</th><th width="126">IP Address</th><th width="183">Configuration</th><th>Component</th></tr></thead><tbody><tr><td>Node 1</td><td>192.168.1.1</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>Node 2</td><td>192.168.1.2</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>Node 3</td><td>192.168.1.3</td><td>GPU * 1</td><td><p><code>controller</code> <code>autonomys-node</code> </p><p><code>proof-server</code> <code>nats-server</code></p></td></tr><tr><td>Plotter 1</td><td>192.168.1.4</td><td>GPU * 4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> <code>full-piece-cache</code></p></td></tr><tr><td>Plotter 2</td><td>192.168.1.5</td><td>GPU * 4</td><td><p><code>autonomys-plot-server-0</code> </p><p><code>autonomys-plot-server-1</code> </p><p><code>autonomys-plot-server-2</code> </p><p><code>autonomys-plot-server-3</code> </p><p><code>sharded-cache</code> <code>full-piece-cache</code></p></td></tr><tr><td>Storage 1</td><td>192.168.1.6</td><td><p>8T NVMe SSD * 4 </p><p><code>/mnt/nvme0n1</code> </p><p><code>/mnt/nvme0n2</code> </p><p><code>/mnt/nvme1n2</code> </p><p><code>/mnt/nvme1n1</code></p></td><td><code>autonomys-plot-client</code></td></tr><tr><td>Storage 2</td><td>192.168.1.7</td><td><p>8T NVMe SSD * 4 </p><p><code>/mnt/nvme0n1</code> </p><p><code>/mnt/nvme0n2</code> </p><p><code>/mnt/nvme1n1</code> </p><p><code>/mnt/nvme1n2</code></p></td><td><code>autonomys-plot-client</code></td></tr></tbody></table>
 
-#### Supervisor Configuration
+### Cluster Start Command
+
+Start by launching NATS, then follow the instructions below to configure Supervisor’s parameters. Once configured, simply run the following command to start all programs:
+
+```bash
+bashCopy codesupervisorctl start all
+```
+
+### Supervisor Configuration
 
 #### Node Configuration
 
