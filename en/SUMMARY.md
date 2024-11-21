@@ -20,15 +20,20 @@
 * [🤖 Aleo Mining Tutorial - HiveOS](start-mining/publish-your-docs-2.md)
 * [🤖 Aleo Mining Tutorial - Solo](start-mining/publish-your-docs-3.md)
 
-## ❓ Aleo Mining Section
+## ❓ Quai Mining Section
 
-* [🖥️ Mining Machine Q\&A](aleo-mining-section/mining-machine-q-and-a.md)
-* [⚡ Power Q\&A](aleo-mining-section/power-q-and-a.md)
-* [⚙️ Mining Configuration Q\&A](aleo-mining-section/mining-configuration-q-and-a.md)
-* [🪙 Output and Earning Q\&A](aleo-mining-section/output-and-earning-q-and-a.md)
+* [🖥️ Mining Machine Q\&A](quai-mining-section/mining-machine-q-and-a.md)
+* [🔍 Project Q\&A](quai-mining-section/project-q-and-a.md)
 
 ## ❓ Autonomys Mining Section
 
 * [🖥️ Mining Machine Q\&A](autonomys-mining-section/mining-machine-q-and-a.md)
 * [🔍 Project Q\&A](autonomys-mining-section/project-q-and-a.md)
 * [💰 Autonomys Network Token Supply & Distribution](autonomys-mining-section/autonomys-network-token-supply-and-distribution.md)
+
+## ❓ Aleo Mining Section
+
+* [🖥️ Mining Machine Q\&A](aleo-mining-section/mining-machine-q-and-a.md)
+* [⚡ Power Q\&A](aleo-mining-section/power-q-and-a.md)
+* [⚙️ Mining Configuration Q\&A](aleo-mining-section/mining-configuration-q-and-a.md)
+* [🪙 Output and Earning Q\&A](aleo-mining-section/output-and-earning-q-and-a.md)
