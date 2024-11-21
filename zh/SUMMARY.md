@@ -21,15 +21,20 @@
 * [🤖 Aleo挖礦教程 - HiveOS](kai-shi-wa-kuang/publish-your-docs-1.md)
 * [🤖 Aleo挖礦教程 - Solo](kai-shi-wa-kuang/publish-your-docs-2.md)
 
-## ❓ Aleo專欄
+## ❓ Quai專欄
 
-* [🖥️ 礦機相關問題](aleo-zhuan-lan/kuang-ji-xiang-guan-wen-ti.md)
-* [⚡ 算力相關問題](aleo-zhuan-lan/suan-li-xiang-guan-wen-ti.md)
-* [⚙️ 挖礦設置相關問題](aleo-zhuan-lan/wa-kuang-she-zhi-xiang-guan-wen-ti.md)
-* [🪙 產出收益相關問題](aleo-zhuan-lan/chan-chu-shou-yi-xiang-guan-wen-ti.md)
+* [🖥️ 矿机相關問題](quai-zhuan-lan/kuang-ji-xiang-guan-wen-ti.md)
+* [🔍 项目相關問題](quai-zhuan-lan/xiang-mu-xiang-guan-wen-ti.md)
 
 ## ❓ Autonomys專欄
 
 * [🖥️ 矿机相關問題](autonomys-zhuan-lan/kuang-ji-xiang-guan-wen-ti.md)
 * [🔍 项目相關問題](autonomys-zhuan-lan/xiang-mu-xiang-guan-wen-ti.md)
 * [💰 Autonomys Network 代幣供應與分配](autonomys-zhuan-lan/autonomys-network-dai-bi-gong-ying-yu-fen-pei.md)
+
+## ❓ Aleo專欄
+
+* [🖥️ 礦機相關問題](aleo-zhuan-lan/kuang-ji-xiang-guan-wen-ti.md)
+* [⚡ 算力相關問題](aleo-zhuan-lan/suan-li-xiang-guan-wen-ti.md)
+* [⚙️ 挖礦設置相關問題](aleo-zhuan-lan/wa-kuang-she-zhi-xiang-guan-wen-ti.md)
+* [🪙 產出收益相關問題](aleo-zhuan-lan/chan-chu-shou-yi-xiang-guan-wen-ti.md)
