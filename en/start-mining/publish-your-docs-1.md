@@ -32,7 +32,7 @@ Please stay updated with [<mark style="color:blue;">**OULA's official website**<
 
 * **Operating Systems**: <mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
 * **NVIDIA Driver Version: **<mark style="color:red;">**545 or higher**</mark>
-* **Software Clients**: [**oula-pool-prover** ](https://github.com/oula-network/aleo/releases)
+* **Software Clients:** [**oula-quai-miner**](https://github.com/oula-network/quai/releases)
 
 ### **Account Setup**
 
@@ -47,22 +47,22 @@ After running the software client, daily output will be automatically accumulate
 
 #### **Oula Pool Prover**
 
-* Download the [**oula-pool-prover**](https://github.com/oula-network/aleo/releases) on Ubuntu systems.
+* Download the [**oula-quai-miner**](https://github.com/oula-network/quai/releases) on Ubuntu systems.
 * Grant permission with the command:
 
 ```sh
-chmod +x oula-pool-prover
+chmod +x oula-quai-miner
 ```
 
 * Set execution permission with the command:
 
 {% code overflow="wrap" %}
 ```bash
-nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
+nohup ./oula-quai-miner -U -P stratum://quai.oula.network:3333 --account=<OULA_ACCOUNT> --worker-name=<WORKER_NAME> > miner.log 2>&1 &
 ```
 {% endcode %}
 
-* [ ] Replace the pool address (`--pool`) with the "Mining Address" provided on the [**Overview**](https://oula.network/en/pool/manager) page.
+* [ ] Replace the pool address (`-P`) with the "Mining Address" provided on the [**Overview**](https://oula.network/en/pool/manager) page.
 * [ ] Replace the account (`--account`) with the "Account Name" created on the [**Sub-Account**](https://oula.network/en/pool/manager?tab=subAccount) page.
 * [ ] Replace the worker name (`--worker-name`) .
 
@@ -75,14 +75,12 @@ nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account -
 * Check logs with the command:
 
 ```bash
-tail -f prover.log
+tail -f miner.log
 ```
 
 {% hint style="success" %}
-If you see relevant success messages in <mark style="color:red;">`prover.log`</mark>, the program has started successfully.
+If you see relevant success messages in <mark style="color:red;">`miner.log`</mark>, the program has started successfully.
 {% endhint %}
-
-<figure><img src="../.gitbook/assets/aleo miner.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **If you do not need to output log content, you can replace '&> prover.log &' in the startup command with '> /dev/null 2>&1 &'.**
@@ -91,7 +89,7 @@ If you see relevant success messages in <mark style="color:red;">`prover.log`</m
 * To stop the program, use:
 
 ```bash
-killall oula-pool-prover
+killall oula-quai-miner
 # Force stop
 ```
 
