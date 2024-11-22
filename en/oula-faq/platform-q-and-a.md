@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/英文.jpg
+cover: ../.gitbook/assets/英文.jpg
 coverY: 0
 layout:
   cover:
@@ -17,7 +17,9 @@ layout:
     visible: true
 ---
 
-# 💡 Oula Platform Q\&A
+# 💡 Platform Q\&A
+
+{% embed url="https://oula.network/en/" %}
 
 **Q: Does Oula offer Aleo hosting service?**
 
@@ -35,27 +37,6 @@ Effective power: The power committed by the miner that has been successfully ver
 Theoretically, these two power values should align. However, factors such as network stability, local operational integrity, and the performance of the graphics card during the commitment process can lead to power loss.
 
 For instance, if your local power is 1M/s and you experience a loss of 20K/s due to various circumstances, your effective power would amount to 980K/s.
-
-***
-
-**Q: How to understand the data on the output interface?**
-
-A: The meanings of the data displayed are as follows:
-
-* **Total Output:** The historical total output from the creation of the worker account to UTC 24:00 yesterday.
-* **Yest. Output:** The actual total output from UTC 00:00 to 24:00 yesterday.
-* **Paid Out:** As of now (UTC 00:00), the system has paid the amount to this account, updated once daily.
-* **Unpaid:** Oula Pool typically completes payments within 24 hours after settlement, except in the following cases:&#x20;
-  1. No address settings;&#x20;
-  2. Total settlement amount does not reach the minimum payout threshold;&#x20;
-  3. Payout settings trigger a 24-hour payment suspension rule;&#x20;
-  4. Platform risk control rules triggered;&#x20;
-  5. Significant incidents such as hard forks, 51% attacks, other major upgrades, accidents affecting the cryptocurrency, etc.
-* **Est. Today Mined Qty:** This value is updated hourly and represents the estimated output for today up to the current time. It is for reference only, with the final settlement as the definitive value.
-
-***
-
-
 
 
 

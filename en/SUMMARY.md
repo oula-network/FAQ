@@ -20,14 +20,15 @@
 * [🤖 Aleo Mining Tutorial - HiveOS](start-mining/publish-your-docs-2.md)
 * [🤖 Aleo Mining Tutorial - Solo](start-mining/publish-your-docs-3.md)
 
+## ❓ Oula FAQ
+
+* [💡 Platform Q\&A](oula-faq/platform-q-and-a.md)
+* [🪙 Output and Payout Q\&A](oula-faq/output-and-payout-q-and-a.md)
+
 ## ❓ Quai Mining Section
 
 * [🖥️ Mining Machine Q\&A](quai-mining-section/mining-machine-q-and-a.md)
 * [🔍 Project Q\&A](quai-mining-section/project-q-and-a.md)
-
-***
-
-* [💡 Oula Platform Q\&A](oula-platform-q-and-a.md)
 
 ## ❓ Autonomys Mining Section
 
@@ -40,4 +41,4 @@
 * [🖥️ Mining Machine Q\&A](aleo-mining-section/mining-machine-q-and-a.md)
 * [⚡ Power Q\&A](aleo-mining-section/power-q-and-a.md)
 * [⚙️ Mining Configuration Q\&A](aleo-mining-section/mining-configuration-q-and-a.md)
-* [🪙 Output and Earning Q\&A](aleo-mining-section/output-and-earning-q-and-a.md)
+* [🔍 Project Q\&A](aleo-mining-section/project-q-and-a.md)

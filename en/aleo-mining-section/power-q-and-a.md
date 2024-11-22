@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Power Q&A.jpg
+cover: ../.gitbook/assets/aleo.png
 coverY: 0
 layout:
   cover:

@@ -29,9 +29,25 @@ Feel free to browse through and find the answers you need to make your mining jo
 
 ***
 
+### START MINING
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td>Autonomys Mining Tutorial - Linux</td><td><a href=".gitbook/assets/WX20241105-170955@2x.png">WX20241105-170955@2x.png</a></td><td><a href="start-mining/publish-your-docs/">publish-your-docs</a></td></tr><tr><td></td><td></td><td>Aleo Mining Tutorial - Linux</td><td><a href=".gitbook/assets/aleo (1).jpg">aleo (1).jpg</a></td><td><a href="start-mining/publish-your-docs-1.md">publish-your-docs-1.md</a></td></tr><tr><td></td><td></td><td>Aleo Mining Tutorial - HiveOS</td><td><a href=".gitbook/assets/aleo (1).jpg">aleo (1).jpg</a></td><td><a href="start-mining/publish-your-docs-2.md">publish-your-docs-2.md</a></td></tr></tbody></table>
+
 ***
 
 ### FAQ
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Autonomys Mining Section</strong></td><td>All about Autonomys Q&#x26;A</td><td><a href=".gitbook/assets/aa.png">aa.png</a></td><td></td><td></td></tr><tr><td><strong>Aleo Mining Section</strong></td><td>All about Aleo Q&#x26;A</td><td><a href=".gitbook/assets/aleo.png">aleo.png</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Oula FAQ</td><td></td><td><a href=".gitbook/assets/Frame 427318688.png">Frame 427318688.png</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Autonomys Mining Section</strong></td><td>All about Autonomys Q&#x26;A</td><td><a href=".gitbook/assets/aa.png">aa.png</a></td><td></td><td></td></tr><tr><td><strong>Aleo Mining Section</strong></td><td>All about Aleo Q&#x26;A</td><td><a href=".gitbook/assets/aleo.png">aleo.png</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+
+***
+
+### CONTACT US
+
+Mail: contacts@oula.network\
+Discord: [https://discord.gg/tPz6CXKM2W](https://discord.gg/tPz6CXKM2W)\
+Twitter: [https://x.com/oula\_network](https://x.com/oula\_network)\
+Telegram: [https://t.me/oulacommunity](https://t.me/oulacommunity)\
+Medium: [https://medium.com/@oula\_network](https://medium.com/@oula\_network)
+
+
 
