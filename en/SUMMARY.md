@@ -8,6 +8,7 @@
 
 ## ⛏️ Start Mining
 
+* [MINING TUTORIAL](start-mining/mining-tutorial.md)
 * [🤖 Quai Mining Tutorial - Linux](start-mining/publish-your-docs.md)
 * [🤖 Autonomys Mining Tutorial - Linux](start-mining/publish-your-docs-1/README.md)
   * [Introduction](start-mining/publish-your-docs-1/introduction.md)
