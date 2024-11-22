@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/產出收益相關問題.jpg
+cover: ../.gitbook/assets/aleo.png
 coverY: 0
 layout:
   cover:

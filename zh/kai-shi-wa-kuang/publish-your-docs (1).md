@@ -1,5 +1,6 @@
 ---
-cover: ../.gitbook/assets/aleo.png
+hidden: true
+cover: ../.gitbook/assets/Quai.png
 coverY: 0
 layout:
   cover:
@@ -17,13 +18,7 @@ layout:
     visible: true
 ---
 
-# 🤖 Aleo挖礦教程 - Linux
-
-{% embed url="https://oula.network/zh/" %}
-
-> &#x20;❕ [Aleo](https://www.aleo.org/)是一個融合PoW和PoS共識機制的區塊鏈項目，旨在提供高度隱私的智能合約功能。其利用先進的Synthesis Puzzle技術來確保交易的隱私和安全性。Aleo專注於構建去中心化應用程序，提供高效且安全的隱私保護方案。
-
-
+# 🤖 Quai挖礦教程 - Ubuntu
 
 請詳細閱讀挖礦教程，並按照步驟完成礦機接入礦池的操作。
 
@@ -31,37 +26,37 @@ layout:
 
 * **操作系統：**<mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
 * **NVIDIA驱动版本：**<mark style="color:red;">**545以上**</mark>
-* **軟體客戶端：**[<mark style="color:blue;">**oula-pool-prover**</mark> ](https://github.com/oula-network/aleo/releases)
+* **軟體客戶端：**[**oula-quai-miner**](https://github.com/oula-network/quai/releases)
 
 {% hint style="info" %}
-請隨時關注[**OULA官方網站**](https://oula.network/zh)公告，並更新使用最新版本的軟體客戶端，以獲得更優質的技術服務和更高的 Token 產出。
+請隨時關注[**Oula官方網站**](https://oula.network/zh)公告，並更新使用最新版本的軟體客戶端，以獲得更優質的技術服務和更高的 Token 產出。
 {% endhint %}
 
 ### 帳號設立
 
-* 須通過完成 [**OULA帳號註冊**](https://oula.network/zh/register)，在用戶面板→礦池市場→[**子賬戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)模組下，使用 Aleo 對應的預設或新建立的子賬戶名啟動軟體。
+* 須通過完成 [**Oula帳號註冊**](https://oula.network/zh/register)，在用戶面板→礦池市場→[**子賬戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)模組下，使用`Quai`對應的預設或新建立的子賬戶名啟動軟體。
 * 運行軟體客戶端後，每日的產出將自動累計至對應的子賬戶中。餘額達到最低起付金額後，平台將每日自動支付至綁定的提現地址。
 
 ### 程序運行
 
 #### **Oula Pool Prover**
 
-* 在Ubuntu系統中，下載並解壓縮[**oula-pool-prover**](https://github.com/oula-network/aleo/releases)
+* 在Ubuntu系統中，下載並解壓縮[**oula-quai-miner**](https://github.com/oula-network/quai/releases)
 * 設置執行程序的權限命令
 
 ```sh
-chmod +x oula-pool-prover
+chmod +x oula-quai-miner
 ```
 
 * 設置參數對應的文本資訊，執行程序啟動命令
 
 {% code overflow="wrap" %}
 ```bash
-nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
+nohup ./oula-quai-miner -U -P stratum://quai.oula.network:3333 --account=<OULA_SUBACCOUNT> --worker-name=<WORKER_NAME> > miner.log 2>&1 &
 ```
 {% endcode %}
 
-* [ ] 替換礦池地址`--pool`：以[**概覽**](https://oula.network/zh/pool/manager)頁提供的「**礦池地址**」為準
+* [ ] 替換礦池地址`-P`：以[**概覽**](https://oula.network/zh/pool/manager)頁提供的「**礦池地址**」為準
 * [ ] 替換帳戶`--account`：[**子賬戶管理**](https://oula.network/zh/pool/manager?tab=subAccount)頁已創建的「**賬戶名**」
 * [ ] 替換設備名`--worker-name`：礦工名稱
 
@@ -74,23 +69,21 @@ nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account -
 * 執行查看日誌命令
 
 ```bash
-tail -f prover.log
+tail -f miner.log
 ```
 
 {% hint style="success" %}
-若在<mark style="color:red;">`prover.log`</mark>中見到相關成功訊息，則表示程序已成功啟動。
+若在<mark style="color:red;">`miner.log`</mark>中見到`ProgPow kernel`相關日誌，則表示程序已成功啟動。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/aleo miner.png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="warning" %}
-如果您不需要輸出日誌內容，可以將啟動命令中的“&> prover.log &”替換為“> /dev/null 2>&1 &”。
+如果您不需要輸出日誌內容，可以將啟動命令中的“&> miner.log &”替換為“> /dev/null 2>&1 &”。
 {% endhint %}
 
 * 執行程式停止命令
 
 ```bash
-killall oula-pool-prover
+killall oula-quai-miner
 # 強制執行
 ```
 

@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/挖礦設置相關問題.jpg
+cover: ../.gitbook/assets/aleo.png
 coverY: 0
 layout:
   cover:
@@ -23,7 +23,7 @@ layout:
 
 **Q: 如何添加礦工並設置礦工號？如何進入礦機管理後台？**
 
-A: 請參閱 Oula 新手教程，詳細步驟請訪問[Aleo挖礦教程](../kai-shi-wa-kuang/publish-your-docs-2.md)。
+A: 請參閱 Oula 新手教程，詳細步驟請訪問[Aleo挖礦教程](../kai-shi-wa-kuang/publish-your-docs.md)。
 
 
 

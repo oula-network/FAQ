@@ -9,18 +9,18 @@
 
 ## ⛏️ 開始挖礦
 
-* [🤖 Quai挖礦教程 - Ubuntu](kai-shi-wa-kuang/publish-your-docs.md)
-* [🤖 Autonomys挖礦教程 - Linux](kai-shi-wa-kuang/publish-your-docs-1/README.md)
-  * [介紹](kai-shi-wa-kuang/publish-your-docs-1/publish-your-docs.md)
-  * [💡 軟件和硬件環境建議配置](kai-shi-wa-kuang/publish-your-docs-1/publish-your-docs-1.md)
-  * [😉 最佳實踐](kai-shi-wa-kuang/publish-your-docs-1/publish-your-docs-2.md)
-  * [附錄](kai-shi-wa-kuang/publish-your-docs-1/publish-your-docs-3.md)
-  * [👨‍🔧 Autonomys Piece 轉換工具](kai-shi-wa-kuang/publish-your-docs-1/publish-your-docs-4.md)
-  * [✔️ Autonomys Piece 驗證工具](kai-shi-wa-kuang/publish-your-docs-1/publish-your-docs-5.md)
-  * [⚡ 快速下載節點數據](kai-shi-wa-kuang/publish-your-docs-1/publish-your-docs-6.md)
-* [🤖 Aleo挖礦教程 - Ubuntu](kai-shi-wa-kuang/publish-your-docs-2.md)
-* [🤖 Aleo挖礦教程 - HiveOS](kai-shi-wa-kuang/publish-your-docs-3.md)
-* [🤖 Aleo挖礦教程 - Solo](kai-shi-wa-kuang/publish-your-docs-4.md)
+* [🤖 Quai挖礦教程 - Ubuntu](<kai-shi-wa-kuang/publish-your-docs (1).md>)
+* [🤖 Autonomys挖礦教程 - Linux](kai-shi-wa-kuang/publish-your-docs/README.md)
+  * [介紹](kai-shi-wa-kuang/publish-your-docs/publish-your-docs.md)
+  * [💡 軟件和硬件環境建議配置](kai-shi-wa-kuang/publish-your-docs/publish-your-docs-1.md)
+  * [😉 最佳實踐](kai-shi-wa-kuang/publish-your-docs/publish-your-docs-2.md)
+  * [附錄](kai-shi-wa-kuang/publish-your-docs/publish-your-docs-3.md)
+  * [👨‍🔧 Autonomys Piece 轉換工具](kai-shi-wa-kuang/publish-your-docs/publish-your-docs-4.md)
+  * [✔️ Autonomys Piece 驗證工具](kai-shi-wa-kuang/publish-your-docs/publish-your-docs-5.md)
+  * [⚡ 快速下載節點數據](kai-shi-wa-kuang/publish-your-docs/publish-your-docs-6.md)
+* [🤖 Aleo挖礦教程 - Linux](kai-shi-wa-kuang/publish-your-docs.md)
+* [🤖 Aleo挖礦教程 - HiveOS](kai-shi-wa-kuang/publish-your-docs-1.md)
+* [🤖 Aleo挖礦教程 - Solo](kai-shi-wa-kuang/publish-your-docs-2.md)
 
 ## ❓ Quai專欄
 
