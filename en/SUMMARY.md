@@ -8,19 +8,19 @@
 
 ## ⛏️ Start Mining
 
-* [Mining Tutorial](start-mining-publish-your-docs/publish-your-docs.md)
-* [🤖 Quai Mining Tutorial - Linux](start-mining-publish-your-docs/publish-your-docs-1.md)
-* [🤖 Autonomys - Linux](start-mining-publish-your-docs/publish-your-docs-2/README.md)
-  * [Introduction](start-mining-publish-your-docs/publish-your-docs-2/introduction.md)
-  * [💡 Recommended Software and Hardware Configuration](start-mining-publish-your-docs/publish-your-docs-2/recommended-software-and-hardware-configuration.md)
-  * [😉 Best Practices](start-mining-publish-your-docs/publish-your-docs-2/best-practices.md)
-  * [Appendix](start-mining-publish-your-docs/publish-your-docs-2/appendix.md)
-  * [👨‍🔧 Piece Conversion Tool](start-mining-publish-your-docs/publish-your-docs-2/autonomys-piece-conversion-tool.md)
-  * [✔️ Piece Verification Tool](start-mining-publish-your-docs/publish-your-docs-2/autonomys-piece-verification-tool.md)
-  * [⚡ Fast Node Data Download](start-mining-publish-your-docs/publish-your-docs-2/fast-node-data-download.md)
-* [🤖 Aleo - Linux](start-mining-publish-your-docs/publish-your-docs-3.md)
-* [🤖 Aleo - HiveOS](start-mining-publish-your-docs/publish-your-docs-4.md)
-* [🤖 Aleo Mining Tutorial - Solo](start-mining-publish-your-docs/publish-your-docs-5.md)
+* [📖 Mining Tutorial](start-mining-publish-your-docs/publish-your-docs.md)
+* [🤖 Quai - Linux](start-mining/quai-linux.md)
+* [🤖 Autonomys - Linux](start-mining/autonomys-linux/README.md)
+  * [Introduction](start-mining/autonomys-linux/introduction.md)
+  * [💡 Recommended Software and Hardware Configuration](start-mining/autonomys-linux/recommended-software-and-hardware-configuration.md)
+  * [😉 Best Practices](start-mining/autonomys-linux/best-practices.md)
+  * [Appendix](start-mining/autonomys-linux/appendix.md)
+  * [👨‍🔧 Piece Conversion Tool](start-mining/autonomys-linux/piece-conversion-tool.md)
+  * [✔️ Piece Verification Tool](start-mining/autonomys-linux/piece-verification-tool.md)
+  * [⚡ Fast Node Data Download](start-mining/autonomys-linux/fast-node-data-download.md)
+* [🤖 Aleo - Linux](start-mining/aleo-linux.md)
+* [🤖 Aleo - HiveOS](start-mining/aleo-hiveos.md)
+* [🤖 Aleo Mining Tutorial - Solo](start-mining/publish-your-docs-1.md)
 
 ## ❓ Oula FAQ
 
