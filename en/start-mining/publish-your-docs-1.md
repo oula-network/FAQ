@@ -1,5 +1,6 @@
 ---
-cover: ../.gitbook/assets/aleo.png
+hidden: true
+cover: ../.gitbook/assets/Quai.png
 coverY: 0
 layout:
   cover:
@@ -17,13 +18,9 @@ layout:
     visible: true
 ---
 
-# 🤖 Aleo Mining Tutorial - Linux
+# 🤖 Quai Mining Tutorial - Linux
 
 {% embed url="https://oula.network/en/" %}
-
-&#x20;❕ [Aleo](https://www.aleo.org/) is a blockchain project that integrates Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms to offer highly private smart contract capabilities. It utilizes advanced Synthesis Puzzle technology to ensure transaction privacy and security. Aleo focuses on developing decentralized applications and provides efficient and secure privacy protection solutions.
-
-Please read the mining tutorial carefully and follow the steps to connect the mining machine to the mining pool.
 
 {% hint style="info" %}
 Please stay updated with [<mark style="color:blue;">**OULA's official website**</mark>](https://oula.network/en) announcements and use the latest version of the software client for optimal technical service and higher Token output.
