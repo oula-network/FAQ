@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 🤖 Aleo Mining Tutorial - HiveOS
+# 🤖 Aleo - HiveOS
 
 {% embed url="https://oula.network/en/" %}
 

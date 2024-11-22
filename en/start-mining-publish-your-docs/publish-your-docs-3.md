@@ -1,6 +1,5 @@
 ---
-hidden: true
-cover: ../.gitbook/assets/Quai.png
+cover: ../.gitbook/assets/aleo.png
 coverY: 0
 layout:
   cover:
@@ -18,9 +17,13 @@ layout:
     visible: true
 ---
 
-# 🤖 Quai Mining Tutorial - Linux
+# 🤖 Aleo - Linux
 
 {% embed url="https://oula.network/en/" %}
+
+&#x20;❕ [Aleo](https://www.aleo.org/) is a blockchain project that integrates Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms to offer highly private smart contract capabilities. It utilizes advanced Synthesis Puzzle technology to ensure transaction privacy and security. Aleo focuses on developing decentralized applications and provides efficient and secure privacy protection solutions.
+
+Please read the mining tutorial carefully and follow the steps to connect the mining machine to the mining pool.
 
 {% hint style="info" %}
 Please stay updated with [<mark style="color:blue;">**OULA's official website**</mark>](https://oula.network/en) announcements and use the latest version of the software client for optimal technical service and higher Token output.
@@ -32,7 +35,7 @@ Please stay updated with [<mark style="color:blue;">**OULA's official website**<
 
 * **Operating Systems**: <mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
 * **NVIDIA Driver Version: **<mark style="color:red;">**545 or higher**</mark>
-* **Software Clients:** [**oula-quai-miner**](https://github.com/oula-network/quai/releases)
+* **Software Clients**: [**oula-pool-prover** ](https://github.com/oula-network/aleo/releases)
 
 ### **Account Setup**
 
@@ -47,22 +50,22 @@ After running the software client, daily output will be automatically accumulate
 
 #### **Oula Pool Prover**
 
-* Download the [**oula-quai-miner**](https://github.com/oula-network/quai/releases) on Ubuntu systems.
+* Download the [**oula-pool-prover**](https://github.com/oula-network/aleo/releases) on Ubuntu systems.
 * Grant permission with the command:
 
 ```sh
-chmod +x oula-quai-miner
+chmod +x oula-pool-prover
 ```
 
 * Set execution permission with the command:
 
 {% code overflow="wrap" %}
 ```bash
-nohup ./oula-quai-miner -U -P stratum://quai.oula.network:3333 --account=<OULA_ACCOUNT> --worker-name=<WORKER_NAME> > miner.log 2>&1 &
+nohup ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account account --worker-name worker_name > prover.log 2>&1 &
 ```
 {% endcode %}
 
-* [ ] Replace the pool address (`-P`) with the "Mining Address" provided on the [**Overview**](https://oula.network/en/pool/manager) page.
+* [ ] Replace the pool address (`--pool`) with the "Mining Address" provided on the [**Overview**](https://oula.network/en/pool/manager) page.
 * [ ] Replace the account (`--account`) with the "Account Name" created on the [**Sub-Account**](https://oula.network/en/pool/manager?tab=subAccount) page.
 * [ ] Replace the worker name (`--worker-name`) .
 
@@ -75,12 +78,14 @@ nohup ./oula-quai-miner -U -P stratum://quai.oula.network:3333 --account=<OULA_A
 * Check logs with the command:
 
 ```bash
-tail -f miner.log
+tail -f prover.log
 ```
 
 {% hint style="success" %}
-If you see relevant success messages in <mark style="color:red;">`miner.log`</mark>, the program has started successfully.
+If you see relevant success messages in <mark style="color:red;">`prover.log`</mark>, the program has started successfully.
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/aleo miner.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **If you do not need to output log content, you can replace '&> prover.log &' in the startup command with '> /dev/null 2>&1 &'.**
@@ -89,7 +94,7 @@ If you see relevant success messages in <mark style="color:red;">`miner.log`</ma
 * To stop the program, use:
 
 ```bash
-killall oula-quai-miner
+killall oula-pool-prover
 # Force stop
 ```
 

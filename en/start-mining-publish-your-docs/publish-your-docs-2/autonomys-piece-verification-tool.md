@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# ✔️ Autonomys Piece Verification Tool
+# ✔️ Piece Verification Tool
 
 ### Autonomys Piece Verification Tool
 

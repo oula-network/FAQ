@@ -3,7 +3,7 @@ cover: ../../.gitbook/assets/aa.png
 coverY: 0
 ---
 
-# 🤖 Autonomys Mining Tutorial - Linux
+# 🤖 Autonomys - Linux
 
 {% embed url="https://oula.network/zh/" %}
 
