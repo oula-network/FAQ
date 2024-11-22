@@ -50,7 +50,7 @@ layout:
 ***
 
 **Q: What is the minimum hardware configuration required for mining?**\
-**A:** Please refer to the [mining tutorial](../start-mining/publish-your-docs-2/#recommended-software-and-hardware-configuration) for the recommended hardware configuration.
+**A:** Please refer to the [mining tutorial](../start-mining-publish-your-docs/publish-your-docs-2/#recommended-software-and-hardware-configuration) for the recommended hardware configuration.
 
 ***
 

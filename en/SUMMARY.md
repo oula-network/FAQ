@@ -6,21 +6,21 @@
 
 * [Quickstart](getting-started/quickstart.md)
 
-## ⛏️ Start Mining
+## ⛏️ Start Mining <a href="#start-mining-publish-your-docs" id="start-mining-publish-your-docs"></a>
 
-* [Guide](start-mining/publish-your-docs.md)
-* [🤖 Quai Mining Tutorial - Linux](start-mining/publish-your-docs-1.md)
-* [🤖 Autonomys Mining Tutorial - Linux](start-mining/publish-your-docs-2/README.md)
-  * [Introduction](start-mining/publish-your-docs-2/introduction.md)
-  * [💡 Recommended Software and Hardware Configuration](start-mining/publish-your-docs-2/recommended-software-and-hardware-configuration.md)
-  * [😉 Best Practices](start-mining/publish-your-docs-2/best-practices.md)
-  * [Appendix](start-mining/publish-your-docs-2/appendix.md)
-  * [👨‍🔧 Autonomys Piece Conversion Tool](start-mining/publish-your-docs-2/autonomys-piece-conversion-tool.md)
-  * [✔️ Autonomys Piece Verification Tool](start-mining/publish-your-docs-2/autonomys-piece-verification-tool.md)
-  * [⚡ Fast Node Data Download](start-mining/publish-your-docs-2/fast-node-data-download.md)
-* [🤖 Aleo Mining Tutorial - Linux](start-mining/publish-your-docs-3.md)
-* [🤖 Aleo Mining Tutorial - HiveOS](start-mining/publish-your-docs-4.md)
-* [🤖 Aleo Mining Tutorial - Solo](start-mining/publish-your-docs-5.md)
+* [Guide](start-mining-publish-your-docs/publish-your-docs.md)
+* [🤖 Quai Mining Tutorial - Linux](start-mining-publish-your-docs/publish-your-docs-1.md)
+* [🤖 Autonomys Mining Tutorial - Linux](start-mining-publish-your-docs/publish-your-docs-2/README.md)
+  * [Introduction](start-mining-publish-your-docs/publish-your-docs-2/introduction.md)
+  * [💡 Recommended Software and Hardware Configuration](start-mining-publish-your-docs/publish-your-docs-2/recommended-software-and-hardware-configuration.md)
+  * [😉 Best Practices](start-mining-publish-your-docs/publish-your-docs-2/best-practices.md)
+  * [Appendix](start-mining-publish-your-docs/publish-your-docs-2/appendix.md)
+  * [👨‍🔧 Autonomys Piece Conversion Tool](start-mining-publish-your-docs/publish-your-docs-2/autonomys-piece-conversion-tool.md)
+  * [✔️ Autonomys Piece Verification Tool](start-mining-publish-your-docs/publish-your-docs-2/autonomys-piece-verification-tool.md)
+  * [⚡ Fast Node Data Download](start-mining-publish-your-docs/publish-your-docs-2/fast-node-data-download.md)
+* [🤖 Aleo Mining Tutorial - Linux](start-mining-publish-your-docs/publish-your-docs-3.md)
+* [🤖 Aleo Mining Tutorial - HiveOS](start-mining-publish-your-docs/publish-your-docs-4.md)
+* [🤖 Aleo Mining Tutorial - Solo](start-mining-publish-your-docs/publish-your-docs-5.md)
 
 ## ❓ Oula FAQ
 

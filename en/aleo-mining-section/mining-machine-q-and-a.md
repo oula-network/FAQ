@@ -35,7 +35,7 @@ A: As long as there is sufficient power supply, the number of GPUs on a single d
 
 **Q: Which operating systems does Aleo mining support?**
 
-A: Currently, we support Ubuntu 22.04. For Ubuntu 20.04, the default GCC version is 9.4 and needs to be upgraded to GCC 11.4. HiveOS is also supported, please refer to the [mining tutorial documentation](../start-mining/publish-your-docs-4.md) for specific instructions.
+A: Currently, we support Ubuntu 22.04. For Ubuntu 20.04, the default GCC version is 9.4 and needs to be upgraded to GCC 11.4. HiveOS is also supported, please refer to the [mining tutorial documentation](../start-mining-publish-your-docs/publish-your-docs-4.md) for specific instructions.
 
 ***
 
