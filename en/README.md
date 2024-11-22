@@ -29,7 +29,9 @@ Feel free to browse through and find the answers you need to make your mining jo
 
 ***
 
-### Jump right in
+***
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Start Mining</strong></td><td>Here's the mining tutorial</td><td><a href=".gitbook/assets/Frame 427318688.png">Frame 427318688.png</a></td><td></td><td><a href="start-mining/publish-your-docs-1.md">publish-your-docs-1.md</a></td></tr><tr><td><strong>Aleo Mining Section</strong></td><td>All about Aleo Q&#x26;A</td><td><a href=".gitbook/assets/aleo.jpg">aleo.jpg</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Autonomys Mining Section</strong></td><td>All about Autonomys Q&#x26;A</td><td><a href=".gitbook/assets/WX20241105-170955@2x.png">WX20241105-170955@2x.png</a></td><td></td><td></td></tr></tbody></table>
+### FAQ
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Autonomys Mining Section</strong></td><td>All about Autonomys Q&#x26;A</td><td><a href=".gitbook/assets/aa.png">aa.png</a></td><td></td><td></td></tr><tr><td><strong>Aleo Mining Section</strong></td><td>All about Aleo Q&#x26;A</td><td><a href=".gitbook/assets/aleo.png">aleo.png</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
 
