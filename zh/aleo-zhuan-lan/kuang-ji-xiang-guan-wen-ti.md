@@ -41,7 +41,7 @@ A: 只要供電充足，單台設備的 GPU 數量不受限制。
 
 **Q: Aleo 挖礦支持哪些操作系統？**
 
-A: 目前支持 Ubuntu 22.04。對於 Ubuntu 20.04，默認 GCC 版本是 9.4，需要升級到 GCC 11.4。也支持 HiveOS，具體操作請參考[挖礦教程文檔](../kai-shi-wa-kuang/publish-your-docs-1.md)。
+A: 目前支持 Ubuntu 22.04。對於 Ubuntu 20.04，默認 GCC 版本是 9.4，需要升級到 GCC 11.4。也支持 HiveOS，具體操作請參考[挖礦教程文檔](../kai-shi-wa-kuang/aleo-hiveos.md)。
 
 
 
