@@ -16,7 +16,7 @@
   * [👨‍🔧 Autonomys Piece Conversion Tool](start-mining/publish-your-docs/autonomys-piece-conversion-tool.md)
   * [✔️ Autonomys Piece Verification Tool](start-mining/publish-your-docs/autonomys-piece-verification-tool.md)
   * [⚡ Fast Node Data Download](start-mining/publish-your-docs/fast-node-data-download.md)
-* [🤖 Aleo Mining Tutorial - Ubuntu](start-mining/publish-your-docs-1.md)
+* [🤖 Aleo Mining Tutorial - Linux](start-mining/publish-your-docs-1.md)
 * [🤖 Aleo Mining Tutorial - HiveOS](start-mining/publish-your-docs-2.md)
 * [🤖 Aleo Mining Tutorial - Solo](start-mining/publish-your-docs-3.md)
 
@@ -24,6 +24,10 @@
 
 * [🖥️ Mining Machine Q\&A](quai-mining-section/mining-machine-q-and-a.md)
 * [🔍 Project Q\&A](quai-mining-section/project-q-and-a.md)
+
+***
+
+* [💡 Oula Platform Q\&A](oula-platform-q-and-a.md)
 
 ## ❓ Autonomys Mining Section
 

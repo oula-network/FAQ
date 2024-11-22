@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Aleo Pool.jpg
+cover: ../.gitbook/assets/aleo.png
 coverY: 0
 layout:
   cover:
@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 🤖 Aleo Mining Tutorial - Ubuntu
+# 🤖 Aleo Mining Tutorial - Linux
 
 {% embed url="https://oula.network/en/" %}
 

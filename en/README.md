@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/英文.jpg
+cover: .gitbook/assets/英文 (1).jpg
 coverY: 3.0218309859154893
 layout:
   cover:

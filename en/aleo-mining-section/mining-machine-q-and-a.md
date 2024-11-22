@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Mining Configuration Q&A.jpg
+cover: ../.gitbook/assets/aleo.png
 coverY: 0
 layout:
   cover:
@@ -20,12 +20,6 @@ layout:
 # 🖥️ Mining Machine Q\&A
 
 {% embed url="https://oula.network/en/" %}
-
-**Q: Does Oula offer Aleo hosting service?**
-
-A: Kindly contact Oula[ Telegram community admins](https://t.me/oulacommunity) for more information or email us at <mark style="color:blue;">contacts@oula.network.</mark>
-
-
 
 **Q: What specific requirements are needed for Aleo mining?**
 
