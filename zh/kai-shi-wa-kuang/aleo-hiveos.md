@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 🤖 Aleo挖礦教程 - HiveOS
+# 🤖 Aleo - HiveOS
 
 {% embed url="https://oula.network/zh/" %}
 
@@ -45,7 +45,7 @@ layout:
     <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-**注意：**請勿使用固件在線升級功能，需重新安裝新固件並確保系統版本為 Ubuntu 20.04。
+**注意：**&#x8ACB;勿使用固件在線升級功能，需重新安裝新固件並確保系統版本為 Ubuntu 20.04。
 {% endhint %}
 
 * 執行GCC 與 G++ 編譯器升級指令

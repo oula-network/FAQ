@@ -28,7 +28,7 @@ layout:
 
 ### 環境準備
 
-* **操作系統：**Ubuntu 20.04、Ubuntu 22.04 及 HiveOS
+* **操作系統：**&#x55;buntu 20.04、Ubuntu 22.04 及 HiveOS
 * **軟體客戶端：**[Oula-Aleo](https://github.com/oula-network/aleo/releases/tag/v1.6-testnet-beta)/ HiveOS。
 
 {% hint style="info" %}

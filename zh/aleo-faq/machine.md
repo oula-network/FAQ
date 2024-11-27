@@ -21,12 +21,6 @@ layout:
 
 {% embed url="https://oula.network/zh/" %}
 
-**Q: Oula 賣 Aleo 礦機嗎？有提供礦機托管服務嗎？**
-
-A: 建議您私訊 Oula 的[ TG 社群群管理員](https://t.me/oulacommunity)以了解更多信息，或發送郵件<mark style="color:blue;">contacts@oula.network</mark>咨詢。
-
-
-
 **Q: 挖 Aleo 需要什麼配置的礦機？**
 
 A: 使用 GPU 挖礦時，目前對礦機的 CPU 和 RAM 沒有任何限制，且支持一台機器上安裝多張顯示卡。
