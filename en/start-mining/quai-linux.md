@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# 🤖 Quai Mining Tutorial - Linux
+# 🤖 Quai - Linux
 
 {% embed url="https://oula.network/en/" %}
 
@@ -31,7 +31,7 @@ Please stay updated with [<mark style="color:blue;">**OULA's official website**<
 ### **Environment Setup**
 
 * **Operating Systems**: <mark style="color:red;">**Ubuntu 22.04 (GCC 11.4)**</mark>
-* **NVIDIA Driver Version: **<mark style="color:red;">**545 or higher**</mark>
+* **NVIDIA Driver Version:&#x20;**<mark style="color:red;">**545 or higher**</mark>
 * **Software Clients:** [**oula-quai-miner**](https://github.com/oula-network/quai/releases)
 
 ### **Account Setup**

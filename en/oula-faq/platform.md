@@ -21,6 +21,30 @@ layout:
 
 {% embed url="https://oula.network/en/" %}
 
+#### Q: What projects does Oula currently support?
+
+A: Currently, Aleo and Autonomys projects are live. For updates on other projects, please follow our Twitter, official website, and community announcements.
+
+***
+
+Q: How do I set up two-factor authentication (2FA)?
+
+A: Please complete email verification during registration and add Google Authenticator.
+
+***
+
+Q: What should I do if I lose my 2FA device and can't log in?
+
+A: Please contact customer support for verification and reset the Google Authenticator key.
+
+***
+
+Q: How can I contact customer support?
+
+A: Please use [this link](https://t.me/oulacommunity) to reach our customer support.
+
+***
+
 **Q: Does Oula offer Aleo hosting service?**
 
 A: Kindly contact Oula[ Telegram community admins](https://t.me/oulacommunity) for more information or email us at <mark style="color:blue;">contacts@oula.network</mark>.

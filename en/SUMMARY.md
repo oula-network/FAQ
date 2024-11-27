@@ -2,10 +2,6 @@
 
 * [😄 Welcome](README.md)
 
-## Getting Started
-
-* [Quickstart](getting-started/quickstart.md)
-
 ## ⛏️ Start Mining
 
 * [📖 Mining Tutorial](start-mining-publish-your-docs/publish-your-docs.md)
@@ -24,8 +20,8 @@
 
 ## ❓ Oula FAQ
 
-* [💡 Platform Q\&A](oula-faq/platform-q-and-a.md)
-* [🪙 Output and Payout Q\&A](oula-faq/output-and-payout-q-and-a.md)
+* [💡 Platform Q\&A](oula-faq/platform.md)
+* [🪙 Output and Payout Q\&A](oula-faq/onp.md)
 
 ## ❓ Quai Section
 
