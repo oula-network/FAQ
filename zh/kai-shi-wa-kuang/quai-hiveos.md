@@ -1,6 +1,6 @@
 ---
 hidden: true
-cover: ../.gitbook/assets/aleo.png
+cover: ../.gitbook/assets/Quai.png
 coverY: 0
 layout:
   cover:
@@ -19,8 +19,6 @@ layout:
 ---
 
 # 🤖 Quai - HiveOS
-
-{% embed url="https://oula.network/zh/" %}
 
 請詳細閱讀挖礦教程，並按照步驟完成礦機接入礦池的操作。
 
@@ -86,13 +84,15 @@ nvidia-driver-update
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-* 設置對應參數
-  * 數字貨幣 `quai-custome`
-  * 地址 [`Oula 默認或新建的子帳戶名`](https://oula.network/zh/pool/manager?tab=subAccount)&#x20;
-  * 名稱 `Oula-quai-miner`&#x20;
+*   設置對應參數
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    * 數字貨幣 `QUAI`
+    * 地址 [`Oula 默認或新建的子帳戶名`](https://oula.network/zh/pool/manager?tab=subAccount)&#x20;
+    * 名稱 `Oula-quai-miner`&#x20;
 
+
+
+    <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 * 點擊「<mark style="color:blue;">**創建**</mark>」按鈕
 
 ### 飛行表創建
@@ -101,30 +101,31 @@ nvidia-driver-update
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-* 設置對應參數
-  * 數字貨幣 `ALEO`
-  * 錢包 `Oula`
-  * 礦池 `挖礦軟件配置`
-  * 挖礦軟件 `Custom`
-  * 名稱 `oulapool`
+*   設置對應參數
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+    * 數字貨幣 `QUAI`
+    * 錢包 `oula-quai-miner`
+    * 礦池 `挖礦軟件配置`
+    * 挖礦軟件 `Custom`
+    * 名稱 `Oula`
 
+    <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 *   點擊「<mark style="color:blue;">**設定挖礦軟件配置**</mark>」，輸入以下對應參數，點擊「應用更改」保存配置信息
 
-    **挖礦軟體名稱**: `oulapool`
+    **挖礦軟體名稱**: `oula-quai-miner`
 
-    **安裝鏈接**: `https://oula-hiveos.oss-ap-southeast-1.aliyuncs.com/oulapool-vX.X.tar.gz（根據`[`最新版本號`](https://github.com/oula-network/aleo/releases)`更新鏈接地址，例如v1.15）`
+    **安裝鏈接**: [`https://oula-pool.oss-ap-southeast-1.aliyuncs.com/quai/Hiveos/oula-quai-miner-vx.y.z.tar.gz`](https://oula-pool.oss-ap-southeast-1.aliyuncs.com/quai/Hiveos/oula-quai-miner-vx.y.z.tar.gz)`（根據`[`最新版本號`](https://github.com/oula-network/quai/releases)`更新鏈接地址，例如v1.0.0）`
 
-    **加密算法**: `aleo`
+    **加密算法**: `progpow-quai`
 
     **錢包與礦機模板**: `%WAL%.%WORKER_NAME%`
 
-    **礦池地址**: `wss://aleo.oula.network:6666`
+    **礦池地址**: `stratum://quai.oula.network:3333`
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-* 點擊「<mark style="color:blue;">**創建飛行表**</mark>」按鈕，飛行表添加完成
+點擊「<mark style="color:blue;">**創建飛行表**</mark>」按鈕，飛行表添加完成
+
 * 將添加的礦機應用于已創建的飛行表
 
 ### 礦機監控及產出查看

@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/aa.png
+cover: ../.gitbook/assets/Quai.png
 coverY: 0
 layout:
   cover:
