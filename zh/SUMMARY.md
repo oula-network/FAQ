@@ -11,6 +11,7 @@
 
 * [📖 挖礦教程](kai-shi-wa-kuang/publish-your-docs.md)
 * [🤖 Quai - Linux](kai-shi-wa-kuang/quai-linux.md)
+* [🤖 Quai - HiveOS](kai-shi-wa-kuang/quai-hiveos.md)
 * [🤖 Autonomys - Linux](kai-shi-wa-kuang/autonomys-linux/README.md)
   * [介紹](kai-shi-wa-kuang/autonomys-linux/publish-your-docs.md)
   * [💡 軟件和硬件環境建議配置](kai-shi-wa-kuang/autonomys-linux/publish-your-docs-1.md)
