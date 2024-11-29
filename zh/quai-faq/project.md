@@ -63,7 +63,7 @@ A: 兩個區域之間的轉帳速度是一致的，**每10秒生成一個區塊*
 
 #### Q: 如何使用Quai區塊瀏覽器查詢？
 
-A: 您可以通過以下鏈接訪問Quai區塊瀏覽器進行查詢：[**Quai區塊瀏覽器**](https://cyprus1.colosseum.quaiscan.io/)
+A: 您可以通過以下鏈接訪問Quai區塊瀏覽器進行查詢：[**Quai區塊瀏覽器**](https://quaiscan.io)**。**
 
 ***
 

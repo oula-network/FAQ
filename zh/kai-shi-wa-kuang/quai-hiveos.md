@@ -88,7 +88,7 @@ nvidia-driver-update
 
     * 數字貨幣 `QUAI`
     * 地址 [`Oula 默認或新建的子帳戶名`](https://oula.network/zh/pool/manager?tab=subAccount)&#x20;
-    * 名稱 `Oula-quai-miner`&#x20;
+    * 名稱 `oula-quai-miner`&#x20;
 
 
 

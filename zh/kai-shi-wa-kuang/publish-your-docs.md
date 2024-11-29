@@ -21,9 +21,9 @@ layout:
 
 {% embed url="https://oula.network/zh/" %}
 
-### &#x20;開始挖礦
+### 挖礦教程
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Autonomys挖礦教程 - Linux</td><td></td><td><a href="../.gitbook/assets/WX20241105-170955@2x.png">WX20241105-170955@2x.png</a></td><td></td><td></td></tr><tr><td>Aleo挖礦教程 - Linux</td><td></td><td><a href="../.gitbook/assets/aleo.jpg">aleo.jpg</a></td><td></td><td></td></tr><tr><td>Aleo挖礦教程 - HiveOS</td><td></td><td><a href="../.gitbook/assets/aleo.jpg">aleo.jpg</a></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Autonomys - Linux</strong></td><td></td><td><a href="../.gitbook/assets/WX20241105-170955@2x.png">WX20241105-170955@2x.png</a></td><td></td><td></td></tr><tr><td><strong>Aleo - Linux</strong></td><td></td><td><a href="../.gitbook/assets/Aleo-blog-header-Road-to-Mainnet.webp">Aleo-blog-header-Road-to-Mainnet.webp</a></td><td></td><td></td></tr><tr><td><strong>Aleo - HiveOS</strong></td><td></td><td><a href="../.gitbook/assets/Aleo-blog-header-Road-to-Mainnet.webp">Aleo-blog-header-Road-to-Mainnet.webp</a></td><td></td><td></td></tr></tbody></table>
 
 
 
