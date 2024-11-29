@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/aa.png
+cover: ../.gitbook/assets/中文.jpg
 coverY: 0
 layout:
   cover:
@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 💡 平台相關問題
+# 💡 常見問題
 
 {% embed url="https://oula.network/zh/" %}
 

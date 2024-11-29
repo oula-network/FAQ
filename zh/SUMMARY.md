@@ -2,10 +2,11 @@
 
 * [😄 熱烈歡迎](README.md)
 
-## Getting Started
+## 🏁 快速開始 <a href="#getting-started" id="getting-started"></a>
 
-* [💡 常見問題](getting-started/quickstart.md)
-* [🥸 新手指南](getting-started/xin-shou-zhi-nan.md)
+* [🆕 新手指南](getting-started/xin-shou-zhi-nan.md)
+* [💡 常見問題](getting-started/platform.md)
+* [🪙 產出 & 收益](getting-started/onp.md)
 
 ## ⛏️ 開始挖礦
 
@@ -23,11 +24,6 @@
 * [🤖 Aleo - Linux](kai-shi-wa-kuang/aleo-linux.md)
 * [🤖 Aleo - HiveOS](kai-shi-wa-kuang/aleo-hiveos.md)
 * [🤖 Aleo挖礦教程 - Solo](kai-shi-wa-kuang/publish-your-docs-1.md)
-
-## ❓ Oula常見問題 <a href="#oula-faq" id="oula-faq"></a>
-
-* [💡 平台相關問題](oula-faq/platform.md)
-* [🪙 產出 & 收益相關問題](oula-faq/onp.md)
 
 ## ❓ Quai專欄 <a href="#quai-faq" id="quai-faq"></a>
 

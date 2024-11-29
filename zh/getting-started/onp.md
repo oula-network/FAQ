@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/aa.png
+cover: ../.gitbook/assets/中文.jpg
 coverY: 0
 layout:
   cover:
@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 🪙 產出 & 收益相關問題
+# 🪙 產出 & 收益
 
 {% embed url="https://oula.network/zh/" %}
 
