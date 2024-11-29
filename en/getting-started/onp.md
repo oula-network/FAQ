@@ -12,12 +12,12 @@ layout:
   tableOfContents:
     visible: true
   outline:
-    visible: false
+    visible: true
   pagination:
     visible: true
 ---
 
-# 🪙 Output and Payout Q\&A
+# 🪙 Output & Payout
 
 {% embed url="https://oula.network/en/" %}
 

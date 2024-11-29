@@ -2,10 +2,17 @@
 
 * [😄 Welcome](README.md)
 
+## 🏁 GETTING STARTED
+
+* [🆕 Beginner Guide](getting-started/platform.md)
+* [💡 Platform FAQ](getting-started/guide.md)
+* [🪙 Output & Payout](getting-started/onp.md)
+
 ## ⛏️ Start Mining
 
 * [📖 Mining Tutorial](start-mining-publish-your-docs/publish-your-docs.md)
 * [🤖 Quai - Linux](start-mining/quai-linux.md)
+* [🤖 Quai - HiveOS](start-mining/quai-hiveos.md)
 * [🤖 Autonomys - Linux](start-mining/autonomys-linux/README.md)
   * [Introduction](start-mining/autonomys-linux/introduction.md)
   * [💡 Recommended Software and Hardware Configuration](start-mining/autonomys-linux/recommended-software-and-hardware-configuration.md)
@@ -16,12 +23,7 @@
   * [⚡ Fast Node Data Download](start-mining/autonomys-linux/fast-node-data-download.md)
 * [🤖 Aleo - Linux](start-mining/aleo-linux.md)
 * [🤖 Aleo - HiveOS](start-mining/aleo-hiveos.md)
-* [🤖 Aleo Mining Tutorial - Solo](start-mining/publish-your-docs-1.md)
-
-## ❓ Oula FAQ
-
-* [💡 Platform Q\&A](oula-faq/platform.md)
-* [🪙 Output and Payout Q\&A](oula-faq/onp.md)
+* [🤖 Aleo - Solo](start-mining/aleo-solo.md)
 
 ## ❓ Quai Section
 
@@ -32,7 +34,7 @@
 
 * [🖥️ Mining Machine Q\&A](autonomys-mining-section/mining-machine-q-and-a.md)
 * [🔍 Project Q\&A](autonomys-mining-section/project-q-and-a.md)
-* [💰 Autonomys Network Token Supply & Distribution](autonomys-mining-section/autonomys-network-token-supply-and-distribution.md)
+* [💰 Token Supply & Distribution](autonomys-section/token-supply-and-distribution.md)
 
 ## ❓ Aleo Section
 

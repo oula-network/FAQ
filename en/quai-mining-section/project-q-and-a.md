@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/aa.png
+cover: ../.gitbook/assets/Quai.png
 coverY: 0
 layout:
   cover:
@@ -21,75 +21,70 @@ layout:
 
 {% embed url="https://oula.network/en/" %}
 
-**Q: What is the difference between host power and effective power? Why are there two types of power?**
+#### Q: What is the difference between PoEM and PoW?
 
-**A**:
+**A:**
 
-* **Host Power**: The actual computational power of the hardware.
-* **Effective Power**: The power required by the blockchain, calculated based on its difficulty.
+**Fundamental Principles:**
 
-**Reason for the difference**: Mining pools assign tasks with lower difficulty. Some lower-performance workers can complete these tasks but may not meet the blockchain’s required difficulty, leading to discrepancies between the two metrics.
+* **PoW (Proof of Work):** Relies on miners completing complex computational tasks to generate hash values that meet specific difficulty requirements. This process validates the legitimacy of a block, with miners competing to produce a valid hash. The first miner to succeed receives the reward.
+* **PoEM (Proof of Entropy Minimum):** Builds upon PoW by introducing the concept of "entropy weighting." Beyond meeting difficulty requirements, PoEM calculates the entropy (randomness) of each block, prioritizing blocks with the lowest entropy for validation and addition to the chain.
 
-***
+**Validation Method:**
 
-**Q: What are the differences between PoEM and PoW mechanisms?**
+* **PoW:** Miners are free to select any block that meets the difficulty threshold. This flexibility can lead to different nodes validating different blocks at the same time, resulting in forks.
+* **PoEM:** Nodes calculate entropy weights, ensuring that all nodes prioritize the block with the lowest entropy. This reduces forks and accelerates consensus.
 
-**A**:
+**Forks and Consensus:**
 
-**Basic Principle**:
+* **PoW:** Due to delayed block confirmation among nodes, forks are common, and the network requires extra time to select the main chain and reach consensus.
+* **PoEM:** Nodes share a consistent judgment of block weights, allowing them to quickly converge on the same "optimal" block, avoiding forks and enhancing stability.
 
-* **PoW**: Proof-of-Work mechanism requires miners to perform complex calculations to generate a hash value meeting the difficulty requirements to validate blocks.
-* **PoEM**: Builds on PoW by introducing "entropy weighting," where nodes prioritize blocks with lower entropy to quickly reach consensus.
+**Speed and Efficiency:**
 
-**Validation Method**:
+* **PoW:** Adding each block depends on miners’ computational power and network confirmation, resulting in delays.
+* **PoEM:** The entropy weight mechanism enables nodes to immediately determine the next block, reducing consensus time and improving efficiency.
 
-* **PoW**: Nodes can select any block meeting the difficulty requirements, which might lead to forks.
-* **PoEM**: Nodes evaluate entropy values and always select the block with the lowest entropy, reducing fork probability.
-
-**Forks and Consensus**:
-
-* **PoW**: Forks occur, requiring extra time to determine the main chain, delaying final consensus.
-* **PoEM**: With unified entropy evaluation, consensus is quickly reached, enhancing network stability.
-
-**Speed and Efficiency**:
-
-* **PoW**: Block confirmation depends on computational power and requires time to achieve consensus, resulting in delays.
-* **PoEM**: The entropy-weighting mechanism reduces confirmation time, improving efficiency and resolving forks promptly.
-
-**Summary**: PoEM optimizes PoW processes by enhancing speed and stability, reducing forks and delays.
+**Summary:** PoEM optimizes PoW’s consensus process by introducing entropy weighting, enabling faster and more stable network consensus, minimizing forks, and reducing confirmation delays.
 
 ***
 
-**Q: Why do Quai and Qi reward strategies vary across stages?**
+#### Q: What are the formulas for QUAI and QI rewards, and why do strategies differ across phases?
 
-**A**:
+**A:**
 
-**Reward Characteristics**:
+**QUAI and QI Distribution Mechanism:**
 
-* **Qi**: Its issuance grows linearly with mining difficulty, providing higher rewards during high-difficulty phases.
-* **Quai**: Its issuance grows logarithmically and decreases as difficulty rises, making it more rewarding at lower difficulty levels.
+* **QI:** Its issuance is linearly proportional to mining difficulty. As difficulty increases, QI issuance grows at a fixed rate. Thus, QI rewards increase significantly during high-difficulty phases.
+* **QUAI:** Its issuance follows a logarithmic decrease relative to mining difficulty. As difficulty rises, QUAI issuance grows more slowly or even decreases. This makes QUAI more advantageous during low-difficulty phases.
 
-**Reward Strategies**:
+**Strategy for Maximizing Rewards:**
 
-* **High Difficulty Phase**: Prioritize mining Qi and converting existing **Quai** to Qi for higher rewards.
-* **Low Difficulty Phase**: Prioritize mining **Quai** and converting Qi to **Quai** to maximize **Quai** rewards.
-
-***
-
-**Q: Does transferring funds from Region 1 to Region 2 happen faster?**
-
-**A**: The transfer speed is the same, requiring approximately 10 seconds per block.
+* **High Difficulty (High Hashrate):** Prioritize mining QI for higher rewards. Convert existing QUAI to QI to maximize returns.
+* **Low Difficulty (Low Hashrate):** Prioritize mining QUAI for greater relative benefits. Convert existing QI to QUAI to enhance overall profitability.
 
 ***
 
-**Q: What blockchain explorers and wallet tools are recommended for the Quai network?**
+#### Q: What is the transfer speed from Region 1 to Region 2?
 
-**A**:
+**A:** The transfer speed between the two regions is consistent, with blocks generated every 10 seconds.
 
-* **Explorer**: [Quai Explorer](https://cyprus1.colosseum.quaiscan.io/)
-* **Wallets**:
-  * [Pelagus Wallet](https://pelaguswallet.io/)
-  * [Koala Wallet](https://koalawallet.io/)
+***
+
+#### Q: How can I query Quai using the block explorer?
+
+**A:** You can access the Quai block explorer for queries via this link: [Quai Block Explorer](https://quaiscan.io).
+
+***
+
+#### Q: What wallets are recommended?
+
+**A:** Recommended wallets for Quai:
+
+* [Pelagus Wallet](https://pelaguswallet.io/)
+* [Koala Wallet](https://koalawallet.io/)
+
+
 
 
 

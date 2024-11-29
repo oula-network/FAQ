@@ -8,7 +8,7 @@ layout:
   title:
     visible: true
   description:
-    visible: true
+    visible: false
   tableOfContents:
     visible: true
   outline:
@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 💡 Platform Q\&A
+# 💡 Platform FAQ
 
 {% embed url="https://oula.network/en/" %}
 
@@ -27,19 +27,19 @@ A: Currently, Aleo and Autonomys projects are live. For updates on other project
 
 ***
 
-Q: How do I set up two-factor authentication (2FA)?
+#### Q: How do I set up two-factor authentication (2FA)?
 
 A: Please complete email verification during registration and add Google Authenticator.
 
 ***
 
-Q: What should I do if I lose my 2FA device and can't log in?
+#### Q: What should I do if I lose my 2FA device and can't log in?
 
 A: Please contact customer support for verification and reset the Google Authenticator key.
 
 ***
 
-Q: How can I contact customer support?
+#### Q: How can I contact customer support?
 
 A: Please use [this link](https://t.me/oulacommunity) to reach our customer support.
 
