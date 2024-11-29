@@ -41,17 +41,21 @@ layout:
 
 ### :question: Token專欄
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Autonomys專欄</strong></td><td>挖礦相關常見問題</td><td></td><td><a href=".gitbook/assets/aa.png">aa.png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Aleo專欄</strong></td><td>挖礦相關常見問題</td><td></td><td><a href=".gitbook/assets/aleo.png">aleo.png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Autonomys專欄</strong></td><td>挖礦相關常見問題</td><td></td><td><a href=".gitbook/assets/aa.png">aa.png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Aleo專欄</strong></td><td>挖礦相關常見問題</td><td></td><td><a href=".gitbook/assets/aleo.png">aleo.png</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
 
 ***
 
 ### 聯繫我們
 
-<img src=".gitbook/assets/邮箱.png" alt="" data-size="original"> 郵箱: contacts@oula.network\
-![](.gitbook/assets/Subtract.png) Discord: [https://discord.gg/tPz6CXKM2W](https://discord.gg/tPz6CXKM2W)\
-![](<.gitbook/assets/Subtract (2).png>) Twitter: [https://x.com/oula\_network](https://x.com/oula_network)\
-![](<.gitbook/assets/Subtract (1).png>) Telegram: [https://t.me/oulacommunity](https://t.me/oulacommunity)\
-![](<.gitbook/assets/Subtract (3).png>) Medium: [https://medium.com/@oula\_network](https://medium.com/@oula_network)
+郵箱: contacts@oula.network
+
+Discord: [https://discord.gg/tPz6CXKM2W](https://discord.gg/tPz6CXKM2W)
+
+Twitter: [https://x.com/oula\_network](https://x.com/oula_network)
+
+Telegram: [https://t.me/oulacommunity](https://t.me/oulacommunity)
+
+Medium: [https://medium.com/@oula\_network](https://medium.com/@oula_network)
 
 
 

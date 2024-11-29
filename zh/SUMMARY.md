@@ -41,4 +41,4 @@
 * [🖥️ 礦機相關問題](aleo-faq/machine.md)
 * [⚡ 算力相關問題](aleo-faq/power.md)
 * [⚙️ 挖礦設置相關問題](aleo-faq/configuration.md)
-* [🔍 項目相關問題](aleo-faq/xiang-mu-xiang-guan-wen-ti.md)
+* [🔍 項目相關問題](aleo-faq/project.md)
