@@ -2,7 +2,7 @@
 
 * [😄 熱烈歡迎](README.md)
 
-## 🏁 快速開始 <a href="#getting-started" id="getting-started"></a>
+## 🏁 快速上手 <a href="#getting-started" id="getting-started"></a>
 
 * [🆕 新手指南](getting-started/xin-shou-zhi-nan.md)
 * [💡 常見問題](getting-started/platform.md)
