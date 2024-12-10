@@ -1,5 +1,4 @@
 ---
-hidden: true
 cover: ../.gitbook/assets/Quai.png
 coverY: 0
 layout:
