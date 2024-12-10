@@ -1,5 +1,4 @@
 ---
-hidden: true
 cover: ../.gitbook/assets/Quai.png
 coverY: 0
 layout:
@@ -18,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 🤖 Quai挖礦教程 - Ubuntu
+# 🤖 Quai - Linux
 
 請詳細閱讀挖礦教程，並按照步驟完成礦機接入礦池的操作。
 
