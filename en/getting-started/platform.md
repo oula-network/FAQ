@@ -45,7 +45,7 @@ Follow the instructions on the page to connect your local or cloud-based mining 
 
 Oula also offers real-time monitoring tools to enhance mining stability. Depending on the type of token you are mining, you can configure different mining machines to optimize performance.
 
-#### **Detailed Tutorial:** Refer to the \[[Mining Tutorial](../start-mining-publish-your-docs/publish-your-docs.md)].
+#### **Detailed Tutorial:** Refer to the \[[Mining Tutorial](../mining-tutorial/overview.md)].
 
 ***
 

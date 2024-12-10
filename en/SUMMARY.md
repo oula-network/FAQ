@@ -8,22 +8,22 @@
 * [💡 Platform FAQ](getting-started/guide.md)
 * [🪙 Output & Payout](getting-started/onp.md)
 
-## ⛏️ Start Mining
+## ⛏️ Mining Tutorial
 
-* [📖 Mining Tutorial](start-mining-publish-your-docs/publish-your-docs.md)
-* [🤖 Quai - Linux](start-mining/quai-linux.md)
-* [🤖 Quai - HiveOS](start-mining/quai-hiveos.md)
-* [🤖 Autonomys - Linux](start-mining/autonomys-linux/README.md)
-  * [Introduction](start-mining/autonomys-linux/introduction.md)
-  * [💡 Recommended Software and Hardware Configuration](start-mining/autonomys-linux/recommended-software-and-hardware-configuration.md)
-  * [😉 Best Practices](start-mining/autonomys-linux/best-practices.md)
-  * [Appendix](start-mining/autonomys-linux/appendix.md)
-  * [👨‍🔧 Piece Conversion Tool](start-mining/autonomys-linux/piece-conversion-tool.md)
-  * [✔️ Piece Verification Tool](start-mining/autonomys-linux/piece-verification-tool.md)
-  * [⚡ Fast Node Data Download](start-mining/autonomys-linux/fast-node-data-download.md)
-* [🤖 Aleo - Linux](start-mining/aleo-linux.md)
-* [🤖 Aleo - HiveOS](start-mining/aleo-hiveos.md)
-* [🤖 Aleo - Solo](start-mining/aleo-solo.md)
+* [📖 Overview](mining-tutorial/overview.md)
+* [🤖 Quai - Linux](mining-tutorial/quai-linux.md)
+* [🤖 Quai - HiveOS](mining-tutorial/quai-hiveos.md)
+* [🤖 Autonomys - Linux](mining-tutorial/autonomys-linux/README.md)
+  * [Introduction](mining-tutorial/autonomys-linux/introduction.md)
+  * [💡 Recommended Software and Hardware Configuration](mining-tutorial/autonomys-linux/recommended-software-and-hardware-configuration.md)
+  * [😉 Best Practices](mining-tutorial/autonomys-linux/best-practices.md)
+  * [Appendix](mining-tutorial/autonomys-linux/appendix.md)
+  * [👨‍🔧 Piece Conversion Tool](mining-tutorial/autonomys-linux/piece-conversion-tool.md)
+  * [✔️ Piece Verification Tool](mining-tutorial/autonomys-linux/piece-verification-tool.md)
+  * [⚡ Fast Node Data Download](mining-tutorial/autonomys-linux/fast-node-data-download.md)
+* [🤖 Aleo - Linux](mining-tutorial/aleo-linux.md)
+* [🤖 Aleo - HiveOS](mining-tutorial/aleo-hiveos.md)
+* [🤖 Aleo - Solo](mining-tutorial/aleo-solo.md)
 
 ## ❓ Quai Section
 

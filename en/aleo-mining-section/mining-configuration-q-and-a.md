@@ -23,7 +23,7 @@ layout:
 
 **Q: How to add a mining machine and set up miner account? How to enter the miner management backend?**
 
-A: Please refer to the [<mark style="color:blue;">**Aleo Mining Tutorial**</mark>](../start-mining/aleo-linux.md). For new Oula users, please refer to detailed Beginner's Guide.
+A: Please refer to the [<mark style="color:blue;">**Aleo Mining Tutorial**</mark>](../mining-tutorial/aleo-linux.md). For new Oula users, please refer to detailed Beginner's Guide.
 
 ***
 
@@ -31,7 +31,7 @@ A: Please refer to the [<mark style="color:blue;">**Aleo Mining Tutorial**</mark
 
 **A:** The "PLIMIT too low" error indicates that the power limit setting for the GPU is too low, which may prevent mining software from starting. To resolve this issue, follow these troubleshooting and adjustment steps:
 
-1. Check if a power limit has been set for the GPU. If it has, either remove the setting or adjust it to a reasonable range. (For detailed adjustment steps, refer to the official documentation under [_Overclocking Nvidia GPUs_](https://hiveon.com/knowledge-base/getting\_started/start\_oc/#creating-an-overclocking-template).)
+1. Check if a power limit has been set for the GPU. If it has, either remove the setting or adjust it to a reasonable range. (For detailed adjustment steps, refer to the official documentation under [_Overclocking Nvidia GPUs_](https://hiveon.com/knowledge-base/getting_started/start_oc/#creating-an-overclocking-template).)
 2. If no power limit has been set, verify that the power supply is sufficient to support multiple GPUs, as insufficient power may prevent the system from starting.
 3. Ensure that the system is not running other high-load applications simultaneously, as this may further reduce available power and affect the stability of the mining operation.
 
