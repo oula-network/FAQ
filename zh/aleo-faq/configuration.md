@@ -23,7 +23,7 @@ layout:
 
 #### **Q: 如何添加礦工並設置礦工號？如何進入礦機管理後台？**
 
-A: 請參閱 [Aleo挖礦教程](../kai-shi-wa-kuang/aleo-linux.md)。
+A: 請參閱 [Aleo挖礦教程](../mining-tutorial/aleo-linux.md)。
 
 ***
 

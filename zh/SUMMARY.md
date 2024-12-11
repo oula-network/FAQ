@@ -4,26 +4,26 @@
 
 ## 🏁 快速上手 <a href="#getting-started" id="getting-started"></a>
 
-* [🆕 新手指南](getting-started/xin-shou-zhi-nan.md)
+* [🆕 新手指南](getting-started/beginner.md)
 * [💡 常見問題](getting-started/platform.md)
 * [🪙 產出 & 收益](getting-started/onp.md)
 
-## ⛏️ 開始挖礦
+## ⛏️ 挖礦教程 <a href="#mining-tutorial" id="mining-tutorial"></a>
 
-* [📖 挖礦教程](kai-shi-wa-kuang/publish-your-docs.md)
-* [🤖 Quai - Linux](kai-shi-wa-kuang/quai-linux.md)
-* [🤖 Quai - HiveOS](kai-shi-wa-kuang/quai-hiveos.md)
-* [🤖 Autonomys - Linux](kai-shi-wa-kuang/autonomys-linux/README.md)
-  * [介紹](kai-shi-wa-kuang/autonomys-linux/publish-your-docs.md)
-  * [💡 軟件和硬件環境建議配置](kai-shi-wa-kuang/autonomys-linux/publish-your-docs-1.md)
-  * [😉 最佳實踐](kai-shi-wa-kuang/autonomys-linux/publish-your-docs-2.md)
-  * [附錄](kai-shi-wa-kuang/autonomys-linux/fu-lu.md)
-  * [👨‍🔧 Piece 轉換工具](kai-shi-wa-kuang/autonomys-linux/piece-zhuan-huan-gong-ju.md)
-  * [✔️ Piece 驗證工具](kai-shi-wa-kuang/autonomys-linux/piece-yan-zheng-gong-ju.md)
-  * [⚡ 快速下載節點數據](kai-shi-wa-kuang/autonomys-linux/kuai-su-xia-zai-jie-dian-shu-ju.md)
-* [🤖 Aleo - Linux](kai-shi-wa-kuang/aleo-linux.md)
-* [🤖 Aleo - HiveOS](kai-shi-wa-kuang/aleo-hiveos.md)
-* [🤖 Aleo挖礦教程 - Solo](kai-shi-wa-kuang/publish-your-docs-1.md)
+* [📖 總覽](mining-tutorial/overview.md)
+* [🤖 Quai - Linux](mining-tutorial/quai-linux.md)
+* [🤖 Quai - HiveOS](mining-tutorial/quai-hiveos.md)
+* [🤖 Autonomys - Linux](mining-tutorial/autonomys-linux/README.md)
+  * [介紹](mining-tutorial/autonomys-linux/publish-your-docs.md)
+  * [💡 軟件和硬件環境建議配置](mining-tutorial/autonomys-linux/publish-your-docs-1.md)
+  * [😉 最佳實踐](mining-tutorial/autonomys-linux/publish-your-docs-2.md)
+  * [附錄](mining-tutorial/autonomys-linux/fu-lu.md)
+  * [👨‍🔧 Piece 轉換工具](mining-tutorial/autonomys-linux/piece-zhuan-huan-gong-ju.md)
+  * [✔️ Piece 驗證工具](mining-tutorial/autonomys-linux/piece-yan-zheng-gong-ju.md)
+  * [⚡ 快速下載節點數據](mining-tutorial/autonomys-linux/kuai-su-xia-zai-jie-dian-shu-ju.md)
+* [🤖 Aleo - Linux](mining-tutorial/aleo-linux.md)
+* [🤖 Aleo - HiveOS](mining-tutorial/aleo-hiveos.md)
+* [🤖 Aleo挖礦教程 - Solo](mining-tutorial/publish-your-docs.md)
 
 ## ❓ Quai專欄 <a href="#quai-faq" id="quai-faq"></a>
 

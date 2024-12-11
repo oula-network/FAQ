@@ -50,7 +50,7 @@ layout:
 ***
 
 **Q: What is the minimum hardware configuration required for mining?**\
-**A:** Please refer to the [mining tutorial](../start-mining/autonomys-linux/#recommended-software-and-hardware-configuration) for the recommended hardware configuration.
+**A:** Please refer to the [mining tutorial](../mining-tutorial/autonomys-linux/#recommended-software-and-hardware-configuration) for the recommended hardware configuration.
 
 ***
 

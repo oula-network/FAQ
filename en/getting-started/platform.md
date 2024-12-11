@@ -17,77 +17,50 @@ layout:
     visible: true
 ---
 
-# 🆕 Beginner Guide
+# 💡 Platform FAQ
 
 {% embed url="https://oula.network/en/" %}
 
-**Welcome to the Oula Mining Pool Service!**\
-If you are new to mining pools, this guide will provide detailed instructions to help you get started with your mining journey.
+#### Q: What projects does Oula currently support?
 
-### **Register an Account**
-
-To begin, you need to register an account on the Oula platform. Use a valid email address to ensure you can receive verification codes.
-
-#### **Password Requirements:**
-
-* Password length: 8-32 characters
-* Must include at least three of the following combinations: uppercase letters, lowercase letters, numbers, and special characters.
-
-#### **Registration Link:** \[[Click Here](https://oula.network/en/register)]
+A: Currently, Aleo and Autonomys projects are live. For updates on other projects, please follow our Twitter, official website, and community announcements.
 
 ***
 
-### **Configure Miners**
+#### Q: How do I set up two-factor authentication (2FA)?
 
-After completing registration, log in to your account, and you will be redirected to the Mining Pool Marketplace page. Here, you’ll find the **"**<mark style="color:yellow;">**Worker**</mark>**"** menu, where you can configure your mining equipment.
-
-Follow the instructions on the page to connect your local or cloud-based mining machines to the Oula mining pool. This enables collaborative mining, maximizing efficiency and profitability.
-
-Oula also offers real-time monitoring tools to enhance mining stability. Depending on the type of token you are mining, you can configure different mining machines to optimize performance.
-
-#### **Detailed Tutorial:** Refer to the \[[Mining Tutorial](../start-mining-publish-your-docs/publish-your-docs.md)].
+A: Please complete email verification during registration and add Google Authenticator.
 
 ***
 
-### **Create a Sub-Account**
+#### Q: What should I do if I lose my 2FA device and can't log in?
 
-In the **"**<mark style="color:yellow;">**Sub-Account**</mark>**"** section of the user panel, the system will automatically create an initial sub-account associated with your registered email address. You can use this sub-account to configure miners.
-
-If necessary, you can create multiple sub-accounts to manage different miners according to your specific requirements. The order of this step and the previous one (Configuring Miners) can be adjusted flexibly based on your needs.
+A: Please contact customer support for verification and reset the Google Authenticator key.
 
 ***
 
-### **Set Up Payment Information**
+#### Q: How can I contact customer support?
 
-Once your mining machines are running stably, the system will generate daily output based on pool distribution rules. Oula uses an **automatic payout system**, so you need to configure a withdrawal address.
-
-Go to the **"**<mark style="color:yellow;">**Payout Settings**</mark>**"** section in your user panel, provide the withdrawal address where you want to receive your mining rewards, and set a minimum payout threshold (which must be above the platform's default minimum payout).
-
-The system will automatically process payouts daily to the configured address.
-
-{% hint style="warning" %}
-**Important:** Withdrawal addresses can be modified later, but please proceed carefully to ensure the accuracy of the information.
-{% endhint %}
+A: Please use [this link](https://t.me/oulacommunity) to reach our customer support.
 
 ***
 
-### **View Output & Payout**
+**Q: Does Oula offer Aleo hosting service?**
 
-Once your miners are running steadily, you can check your daily output and payout records in the **"**<mark style="color:yellow;">**Output/Payout**</mark>**"** section of the user panel.
-
-This page provides daily records of mining outputs and payout details, allowing you to reconcile your earnings at any time. If you have any questions, you can contact us through the Telegram link or email provided at the bottom of the page.
+A: Kindly contact Oula[ Telegram community admins](https://t.me/oulacommunity) for more information or email us at <mark style="color:blue;">contacts@oula.network</mark>.
 
 ***
 
-This is a beginner's guide to using the Oula platform.&#x20;
+**Q: What is the difference between local power and effective power?**
 
-For more advanced features, we encourage you to explore our platform further to gain a deeper understanding of its functionality. We are confident you will achieve even greater profitability with Oula.
+A: Local power and effective power may exhibit differences:
 
-If you have any questions, feel free to reach out to us—we are here to assist you promptly!
+Local power: The power committed by the miner over a recent period. \
+Effective power: The power committed by the miner that has been successfully verified by the server over a recent period.
 
-***
+Theoretically, these two power values should align. However, factors such as network stability, local operational integrity, and the performance of the graphics card during the commitment process can lead to power loss.
 
-**Wishing you a wonderful day and a successful mining journey!** :clap::tada::smile:
+For instance, if your local power is 1M/s and you experience a loss of 20K/s due to various circumstances, your effective power would amount to 980K/s.
 
 
 

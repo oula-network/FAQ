@@ -1,5 +1,4 @@
 ---
-hidden: true
 cover: ../.gitbook/assets/Quai.png
 coverY: 0
 layout:
@@ -109,7 +108,7 @@ If you encounter any issues during the setup or use of HiveOS, or if you have ot
 
     * Miner Name: `oula-quai-miner`
     * Installation URL: [`https://oula-pool.oss-ap-southeast-1.aliyuncs.com/quai/Hiveos/oula-quai-miner-vx.y.z.tar.gz`](https://oula-pool.oss-ap-southeast-1.aliyuncs.com/quai/Hiveos/oula-quai-miner-vx.y.z.tar.gz)\
-      `(`Update the link address according to [the latest version number](https://app.gitbook.com/s/yseWjqJcypCcEst0oC22/), e.g., v1.0.0`)`
+      (Update the link address according to [the latest version number](https://app.gitbook.com/s/yseWjqJcypCcEst0oC22/), e.g., v1.0.0)
     * Hash algorithm: `progpow-quai`
     * Wallet and worker template: `%WAL%.%WORKER_NAME%`
     * Pool URL: `stratum://quai.oula.network:3333`
