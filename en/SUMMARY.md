@@ -4,8 +4,8 @@
 
 ## 🏁 GETTING STARTED
 
-* [🆕 Beginner Guide](getting-started/platform.md)
-* [💡 Platform FAQ](getting-started/guide.md)
+* [🆕 Beginner Guide](getting-started/beginner.md)
+* [💡 Platform FAQ](getting-started/platform.md)
 * [🪙 Output & Payout](getting-started/onp.md)
 
 ## ⛏️ Mining Tutorial
