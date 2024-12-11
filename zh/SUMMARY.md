@@ -4,7 +4,7 @@
 
 ## 🏁 快速上手 <a href="#getting-started" id="getting-started"></a>
 
-* [🆕 新手指南](getting-started/xin-shou-zhi-nan.md)
+* [🆕 新手指南](getting-started/beginner.md)
 * [💡 常見問題](getting-started/platform.md)
 * [🪙 產出 & 收益](getting-started/onp.md)
 
